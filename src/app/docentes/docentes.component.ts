@@ -29,16 +29,26 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
 export class DocentesComponent {
 ngAfterViewInit() {
   if (this.faqList1) {
-    // Verifica si la referencia no es nula antes de acceder a nativeElement
     this.faqList1.nativeElement.classList.add('show');
+  }
+
+  if (this.sosList1) {
+    this.sosList1.nativeElement.classList.add('show');
   }
 }
   @ViewChild('faqList1') faqList1!: ElementRef;
+  @ViewChild('sosList1') sosList1!: ElementRef;
 
 
-  // Cambiar el estado de un desplegable al hacer clic en él
   toggleCollapse(index: number) {
     const element = document.getElementById(`faq-list-${index}`);
+    if (element) {
+      element.classList.toggle('show');
+    }
+  }
+
+  toggleSOSList(index: number) {
+    const element = document.getElementById(`sos-list-${index}`);
     if (element) {
       element.classList.toggle('show');
     }

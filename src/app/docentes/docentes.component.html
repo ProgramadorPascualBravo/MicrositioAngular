@@ -1,156 +1,759 @@
-<app-header></app-header> 
-      <section id="docente" class="d-flex align-items-center">
-      </section>
-      <!-- End ued -->
-      <section id="suport" class="cdd">
-         <div class="container" data-aos="fade-up">
-            <div class="row gy-4 d-flex align-items-center text-left" data-aos="fade-up" data-aos-delay="100">
-               <div class="col-lg-6 col-md-6">
-
-                  <div class="container" data-aos="fade-up">
-                     <div class="section-title2">
-                        <h2>Ayuda para docentes</h2>
-                     </div>
-                     <p>Estimados profesores pascualinos, somos la Unidad de Educación Digital y les damos la bienvenida a este espacio académico y de aprendizaje.</p>
-                     <p>Recuerda que, como profesor en modalidad virtual, estás comprometido con la autogestión del conocimiento, la autorregulación de tiempos y la gestión de los espacios formativos.</p>
-                     <p>Por lo tanto, este espacio nos permitirá ayudar y resolver dudas para que tengas una buena experiencia como guía del aprendizaje en la modalidad virtual.</p>
-                  </div>
-               </div>
-               <!-- End Service Item -->
-               <div class="col-lg-6 col-md-6 d-flex justify-content-center">
-                  <img  class="img-fluid img-btn2" src="assets/img/docente/Docente.png">
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- End Our Services Section -->
-       <!-- ======= Frequently Asked Questions Section ======= -->
-      <section id="faq" class="faq section-bg">
-         <div class="container" data-aos="fade-up">
-
-            <div class="container" data-aos="fade-up">
-               <div class="section-title3">
-                  <h2>Preguntas frecuentes</h2>
-                  <h3>¿Tienes preguntas? </h3>
-               </div>
-               <p>Aquí encontrarás preguntas frecuentes formuladas por nuestros docentes.</p>
-            </div>
-            <div class="faq-list">
+<app-header></app-header>
+<section id="docente" class="d-flex align-items-center"></section>
+<!-- End ued -->
+<section id="suport" class="cdd">
+  <div class="container" data-aos="fade-up">
+    <div
+      class="row gy-4 d-flex align-items-center text-left"
+      data-aos="fade-up"
+      data-aos-delay="100"
+    >
+      <div class="col-lg-6 col-md-6">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title2">
+            <h2>Ayuda para docentes</h2>
+          </div>
+          <p>
+            Estimados profesores pascualinos, somos la Unidad de Educación
+            Digital y les damos la bienvenida a este espacio académico y de
+            aprendizaje.
+          </p>
+          <p>
+            Recuerda que, como profesor en modalidad virtual, estás comprometido
+            con la autogestión del conocimiento, la autorregulación de tiempos y
+            la gestión de los espacios formativos.
+          </p>
+          <p>
+            Por lo tanto, este espacio nos permitirá ayudar y resolver dudas
+            para que tengas una buena experiencia como guía del aprendizaje en
+            la modalidad virtual.
+          </p>
+        </div>
+      </div>
+      <!-- End Service Item -->
+      <div class="col-lg-6 col-md-6 d-flex justify-content-center">
+        <img class="img-fluid img-btn2" src="assets/img/docente/Docente.png" />
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Our Services Section -->
+<!-- ======= Frequently Asked Questions Section ======= -->
+<section id="faq" class="faq section-bg">
+  <div class="container" data-aos="fade-up">
+    <div class="container" data-aos="fade-up">
+      <div class="section-title3">
+        <h2>Preguntas frecuentes</h2>
+        <h3>¿Tienes preguntas?</h3>
+      </div>
+      <p>
+        Aquí encontrarás preguntas frecuentes formuladas por nuestros docentes.
+      </p>
+    </div>
+    <div class="faq-list">
       <ul>
-  <li [@fadeUp]="'void'" data-aos="fade-up" (click)="toggleCollapse(1)">
-    <i class="bx bx-help-circle icon-help "></i>
-    <a  data-bs-toggle="collapse" class="list collapse" data-bs-target="#faq-list-1">
-      ¿Cómo accedo al curso o módulo virtual?
-      <i class="bx bx-chevron-down icon-show"></i>
-      <i class="bx bx-chevron-up icon-close"></i>
-    </a>
-    <div id="faq-list-1" class="collapse" data-bs-parent=".faq-list">
-      <p>Como profesor pascualino, puede ingresar al campus virtual institucional y, en la parte superior derecha, escribir los datos de identificación (el usuario es el correo institucional y la contraseña, la asignada al momento de creación del perfil).
-         Una vez dentro del campus, podrá visualizar un menú, en la parte central de la pantalla, en donde se dispone la opción “Mis cursos” y ahí podrá visualizar los cursos activos.</p>
+        <li [@fadeUp]="'void'" data-aos="fade-up" (click)="toggleCollapse(1)">
+          <i class="bx bx-help-circle icon-help"></i>
+          <a
+            data-bs-toggle="collapse"
+            class="list collapse"
+            data-bs-target="#faq-list-1"
+          >
+            ¿Cómo accedo al curso o módulo virtual?
+            <i class="bx bx-chevron-down icon-show"></i>
+            <i class="bx bx-chevron-up icon-close"></i>
+          </a>
+          <div id="faq-list-1" class="collapse" data-bs-parent=".faq-list">
+            <p>
+              Como profesor pascualino, puede ingresar al campus virtual
+              institucional y, en la parte superior derecha, escribir los datos
+              de identificación (el usuario es el correo institucional y la
+              contraseña, la asignada al momento de creación del perfil). Una
+              vez dentro del campus, podrá visualizar un menú, en la parte
+              central de la pantalla, en donde se dispone la opción “Mis cursos”
+              y ahí podrá visualizar los cursos activos.
+            </p>
+          </div>
+        </li>
+        <li
+          [@fadeUp]="'void'"
+          data-aos="fade-up"
+          (click)="toggleCollapse(2)"
+          data-aos-delay="100"
+        >
+          <i class="bx bx-help-circle icon-help"></i>
+          <a
+            data-bs-toggle="collapse"
+            data-bs-target="#faq-list-2"
+            class="list collapsed"
+          >
+            ¿Cómo verificar la dirección de correo electrónico institucional?
+            <i class="bx bx-chevron-down icon-show"></i>
+            <i class="bx bx-chevron-up icon-close"></i>
+          </a>
+          <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+            <p>
+              Debe escribir un correo al líder del programa para proceder con la
+              gestión...
+            </p>
+            <p>
+              Para acceder al directorio de líderes de programa, acceda al
+              <a
+                href="https://docs.google.com/document/d/1xJNGS4l5fo_aLjAwcjizVePX9T1nva3M/edit#bookmark=id.ow8prk4ipg7z"
+                target="_blank"
+                >Directorio institucional</a
+              >.
+            </p>
+          </div>
+        </li>
+        <li
+          [@fadeUp]="'void'"
+          data-aos="fade-up"
+          (click)="toggleCollapse(3)"
+          data-aos-delay="100"
+        >
+          <i class="bx bx-help-circle icon-help"></i>
+          <a
+            data-bs-toggle="collapse"
+            data-bs-target="#faq-list-3"
+            class="list collapsed"
+          >
+            ¿Cómo ingresar a la clase en modalidad virtual alojada en campus
+            integrado?
+            <i class="bx bx-chevron-down icon-show"></i>
+            <i class="bx bx-chevron-up icon-close"></i>
+          </a>
+          <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+            <p>
+              Ingresa al siguiente enlace:
+              <a
+                href="https://campus.pascualbravovirtual.edu.co/"
+                target="_blank"
+                rel="noopener"
+                >https://campus.pascualbravovirtual.edu.co/</a
+              >
+            </p>
+          </div>
+        </li>
+        <li
+          [@fadeUp]="'void'"
+          data-aos="fade-up"
+          (click)="toggleCollapse(4)"
+          data-aos-delay="100"
+        >
+          <i class="bx bx-help-circle icon-help"></i>
+          <a
+            data-bs-toggle="collapse"
+            data-bs-target="#faq-list-4"
+            class="list collapsed"
+          >
+            ¿Cómo ingresar a la clase en modalidad virtual alojada en
+            &#64;Medellín?
+            <i class="bx bx-chevron-down icon-show"></i>
+            <i class="bx bx-chevron-up icon-close"></i>
+          </a>
+          <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+            <p>
+              Ingresa al siguiente enlace:
+              <a
+                href="https://campus.arrobamedellin.edu.co/"
+                target="_blank"
+                rel="noopener"
+                >https://campus.arrobamedellin.edu.co/</a
+              >
+            </p>
+          </div>
+        </li>
+        <li
+          [@fadeUp]="'void'"
+          data-aos="fade-up"
+          (click)="toggleCollapse(5)"
+          data-aos-delay="100"
+        >
+          <i class="bx bx-help-circle icon-help"></i>
+          <a
+            data-bs-toggle="collapse"
+            data-bs-target="#faq-list-5"
+            class="list collapsed"
+          >
+            ¿Si tengo correo institucional, ¿me sirve para acceder a mis cursos?
+            <i class="bx bx-chevron-down icon-show"></i>
+            <i class="bx bx-chevron-up icon-close"></i>
+          </a>
+          <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+            <p>
+              El campus virtual de la Institución Universitaria Pascual Bravo
+              tiene como usuario el correo institucional. Si usted no lo
+              recuerda, debe dirigirse al líder del programa para que sea
+              validado y corregido.
+            </p>
+          </div>
+        </li>
+        <li
+          [@fadeUp]="'void'"
+          data-aos="fade-up"
+          (click)="toggleCollapse(6)"
+          data-aos-delay="100"
+        >
+          <i class="bx bx-help-circle icon-help"></i>
+          <a
+            data-bs-toggle="collapse"
+            data-bs-target="#faq-list-6"
+            class="list collapsed"
+          >
+            ¿Cómo asignar los grupos de trabajo en las aulas virtuales?
+            <i class="bx bx-chevron-down icon-show"></i>
+            <i class="bx bx-chevron-up icon-close"></i>
+          </a>
+          <div id="faq-list-6" class="collapse" data-bs-parent=".faq-list">
+            <p>
+              Para configurar los grupos en cada curso o módulo, debe ingresar
+              al módulo que esté guiando, en la parte derecha al menú, Editar
+              ajustes, seleccionar el enlace de grupos y desde ahí diligenciar
+              de acuerdo con las características esperadas del profesor, las
+              opciones modo de grupos, forzar el modo de grupos y agrupamiento
+              por defectos.
+            </p>
+          </div>
+        </li>
+        <li
+          [@fadeUp]="'void'"
+          data-aos="fade-up"
+          (click)="toggleCollapse(7)"
+          data-aos-delay="100"
+        >
+          <i class="bx bx-help-circle icon-help"></i>
+          <a
+            data-bs-toggle="collapse"
+            data-bs-target="#faq-list-7"
+            class="list collapsed"
+          >
+            ¿Cómo gestionar las calificaciones dentro del campus virtual?
+            <i class="bx bx-chevron-down icon-show"></i>
+            <i class="bx bx-chevron-up icon-close"></i>
+          </a>
+          <div id="faq-list-7" class="collapse" data-bs-parent=".faq-list">
+            <p>
+              Para la gestión de las calificaciones dentro de la plataforma de
+              campus virtual institucional, debe ingresar al curso o módulo
+              académico en oferta, debe dirigirse a la parte derecha inferior,
+              en la cual aparece la opción de navegación, y justo ahí,
+              visualizar la opción calificaciones. En ese botón, encuentra las
+              opciones de vista, configuración, exportación y escalas de
+              valoración, cada menú permite visualizar y gestionar, las
+              calificaciones. Si requiere más información, diríjase a la opción
+              de videos y tutoriales.
+            </p>
+          </div>
+        </li>
+        <li
+          [@fadeUp]="'void'"
+          data-aos="fade-up"
+          (click)="toggleCollapse(8)"
+          data-aos-delay="100"
+        >
+          <i class="bx bx-help-circle icon-help"></i>
+          <a
+            data-bs-toggle="collapse"
+            data-bs-target="#faq-list-8"
+            class="list collapsed"
+          >
+            ¿Qué sería recomendable para poder realizar con éxito un curso
+            virtual?
+            <i class="bx bx-chevron-down icon-show"></i>
+            <i class="bx bx-chevron-up icon-close"></i>
+          </a>
+          <div id="faq-list-8" class="collapse" data-bs-parent=".faq-list">
+            <p>
+              Aparte de disponer de computador con conexión a Internet, así como
+              unos mínimos conocimientos informáticos, es especialmente importe,
+              considerar las siguientes condiciones:
+            </p>
+            <p>
+              Capacidad de <strong>planificación</strong> del tiempo y tareas.
+            </p>
+            <p>
+              <strong>Flexibilidad</strong> para adaptarse a nuevas formas de
+              aprendizaje.
+            </p>
+            <p>
+              Predisposición para la <strong>participación</strong> y el trabajo
+              colaborativo.
+            </p>
+            <p>
+              <strong>Competencias digitales docentes </strong>en el manejo y
+              uso de las tecnologías digitales, así como una actitud favorable
+              hacia las mismas.
+            </p>
+            <p><strong>Disponibilidad de tiempo</strong>.</p>
+          </div>
+        </li>
+        <li
+          [@fadeUp]="'void'"
+          data-aos="fade-up"
+          (click)="toggleCollapse(9)"
+          data-aos-delay="100"
+        >
+          <i class="bx bx-help-circle icon-help"></i>
+          <a
+            data-bs-toggle="collapse"
+            data-bs-target="#faq-list-9"
+            class="list collapsed"
+          >
+            ¿Cómo puedo realizar los encuentros sincrónicos con los estudiantes
+            virtuales?
+            <i class="bx bx-chevron-down icon-show"></i>
+            <i class="bx bx-chevron-up icon-close"></i>
+          </a>
+          <div id="faq-list-9" class="collapse" data-bs-parent=".faq-list">
+            <p>
+              Si presenta alguna dificultad, duda o necesita asesoría, debe
+              escribir un correo (puede ser desde una cuenta de correo personal)
+              a
+              <strong>gestioncorreos&#64;pascualbravo.edu.co</strong>
+              incluyendo:
+            </p>
+            <p>
+              Para realizar los encuentros sincrónicos con el grupo asignado en
+              los módulos académicos, el profesor debe integrar a su módulo
+              académico dispuesto en el campus virtual y justo después de entrar
+              al módulo académico que está impartiendo, debe buscar en el menú
+              de la parte derecha la opción de encuentros sincrónicos, los
+              cuales ya fueron configurados y puestos a disposición por la
+              Unidad de Educación Digital.
+            </p>
+          </div>
+        </li>
+      </ul>
     </div>
-  </li>
-  <li [@fadeUp]="'void'" data-aos="fade-up" (click)="toggleCollapse(2)" data-aos-delay="100">
-    <i class="bx bx-help-circle icon-help"></i>
-    <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="list collapsed">
-      ¿Cómo verificar la dirección de correo electrónico institucional?
-      <i class="bx bx-chevron-down icon-show"></i>
-      <i class="bx bx-chevron-up icon-close"></i>
-    </a>
-    <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
-      <p>Debe escribir un correo al líder del programa para proceder con la gestión...</p>
-      <p>Para acceder al directorio de líderes de programa, acceda al <a href="https://docs.google.com/document/d/1xJNGS4l5fo_aLjAwcjizVePX9T1nva3M/edit#bookmark=id.ow8prk4ipg7z" target="_blank">Directorio institucional</a>.</p>
-    </div>
-  </li>
-  <li [@fadeUp]="'void'" data-aos="fade-up" (click)="toggleCollapse(3)" data-aos-delay="100">
-    <i class="bx bx-help-circle icon-help"></i>
-    <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="list collapsed">
-      ¿Cómo ingresar a la clase en modalidad virtual alojada en campus integrado?
-      <i class="bx bx-chevron-down icon-show"></i>
-      <i class="bx bx-chevron-up icon-close"></i>
-    </a>
-    <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
-    <p>Ingresa al siguiente enlace: <a href="https://campus.pascualbravovirtual.edu.co/" target="_blank" rel="noopener">https://campus.pascualbravovirtual.edu.co/</a></p>
- </div>
-  </li>
-  <li [@fadeUp]="'void'" data-aos="fade-up" (click)="toggleCollapse(4)" data-aos-delay="100">
-    <i class="bx bx-help-circle icon-help"></i>
-    <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="list collapsed">
-      ¿Cómo ingresar a la clase en modalidad virtual alojada en &#64;Medellín?
-      <i class="bx bx-chevron-down icon-show"></i>
-      <i class="bx bx-chevron-up icon-close"></i>
-    </a>
-    <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
-   <p>Ingresa al siguiente enlace: <a href="https://campus.arrobamedellin.edu.co/" target="_blank" rel="noopener">https://campus.arrobamedellin.edu.co/</a></p>
- </div>
-  </li>
-  <li [@fadeUp]="'void'" data-aos="fade-up" (click)="toggleCollapse(5)" data-aos-delay="100">
-    <i class="bx bx-help-circle icon-help"></i>
-    <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="list collapsed">
-      ¿Si tengo correo institucional, ¿me sirve para acceder a mis cursos?
-      <i class="bx bx-chevron-down icon-show"></i>
-      <i class="bx bx-chevron-up icon-close"></i>
-    </a>
-    <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
-   <p>El campus virtual de la Institución Universitaria Pascual Bravo tiene como usuario el correo institucional. Si usted no lo recuerda, debe dirigirse al líder del programa para que sea validado y corregido.</p>
- </div>
-  </li>
-  <li [@fadeUp]="'void'" data-aos="fade-up" (click)="toggleCollapse(6)" data-aos-delay="100">
-    <i class="bx bx-help-circle icon-help"></i>
-    <a data-bs-toggle="collapse" data-bs-target="#faq-list-6" class="list collapsed">
-      ¿Cómo asignar los grupos de trabajo en las aulas virtuales?
-      <i class="bx bx-chevron-down icon-show"></i>
-      <i class="bx bx-chevron-up icon-close"></i>
-    </a>
-    <div id="faq-list-6" class="collapse" data-bs-parent=".faq-list">
-   <p>Para configurar los grupos en cada curso o módulo, debe ingresar al módulo que esté guiando, en la parte derecha al menú, Editar ajustes, seleccionar el enlace de grupos y desde ahí diligenciar de acuerdo con las características esperadas del profesor, las opciones modo de grupos, forzar el modo de grupos y agrupamiento por defectos.</p>
- </div>
-  </li>
-  <li [@fadeUp]="'void'" data-aos="fade-up" (click)="toggleCollapse(7)" data-aos-delay="100">
-    <i class="bx bx-help-circle icon-help"></i>
-    <a data-bs-toggle="collapse" data-bs-target="#faq-list-7" class="list collapsed">
-      ¿Cómo gestionar las calificaciones dentro del campus virtual?
-      <i class="bx bx-chevron-down icon-show"></i>
-      <i class="bx bx-chevron-up icon-close"></i>
-    </a>
-    <div id="faq-list-7" class="collapse" data-bs-parent=".faq-list">
-       <p>Para la gestión de las calificaciones dentro de la plataforma de campus virtual institucional, debe ingresar al curso o módulo académico en oferta, debe dirigirse a la parte derecha inferior, en la cual aparece la opción de navegación, y justo ahí, visualizar la opción calificaciones. En ese botón, encuentra las opciones de vista, configuración, exportación y escalas de valoración, cada menú permite visualizar y gestionar, las calificaciones. Si requiere más información, diríjase a la opción de videos y tutoriales.</p>
-   </div>
-  </li>
-  <li [@fadeUp]="'void'" data-aos="fade-up" (click)="toggleCollapse(8)" data-aos-delay="100">
-    <i class="bx bx-help-circle icon-help"></i>
-    <a data-bs-toggle="collapse" data-bs-target="#faq-list-8" class="list collapsed">
-      ¿Qué sería recomendable para poder realizar con éxito un curso virtual?
-      <i class="bx bx-chevron-down icon-show"></i>
-      <i class="bx bx-chevron-up icon-close"></i>
-    </a>
-    <div id="faq-list-8" class="collapse" data-bs-parent=".faq-list">
-  <p>Aparte de disponer de computador con conexión a Internet, así como unos mínimos conocimientos informáticos, es especialmente importe, considerar las siguientes condiciones: </p>
-                        <p>Capacidad de <strong>planificación</strong> del tiempo y tareas.</p>
-                        <p><strong>Flexibilidad</strong> para adaptarse a nuevas formas de aprendizaje.</p>
-                        <p>Predisposición para la <strong>participación</strong> y el trabajo colaborativo.</p>
-                        <p><strong>Competencias digitales docentes </strong>en el manejo y uso de las tecnologías digitales, así como una actitud favorable hacia las mismas. </p>
-                        <p><strong>Disponibilidad de tiempo</strong>.</p></div>
-  </li>
-  <li [@fadeUp]="'void'" data-aos="fade-up" (click)="toggleCollapse(9)" data-aos-delay="100">
-    <i class="bx bx-help-circle icon-help"></i>
-    <a data-bs-toggle="collapse" data-bs-target="#faq-list-9" class="list collapsed">
-      ¿Cómo puedo realizar los encuentros sincrónicos con los estudiantes virtuales?
-      <i class="bx bx-chevron-down icon-show"></i>
-      <i class="bx bx-chevron-up icon-close"></i>
-    </a>
-    <div id="faq-list-9" class="collapse" data-bs-parent=".faq-list">
-       <p>Si presenta alguna dificultad, duda o necesita asesoría, debe escribir un correo (puede ser desde una cuenta de correo personal) a <strong>gestioncorreos&#64;pascualbravo.edu.co</strong> incluyendo:</p>
-                        <p>Para realizar los encuentros sincrónicos con el grupo asignado en los módulos académicos, el profesor debe integrar a su módulo académico dispuesto en el campus virtual y justo después de entrar al módulo académico que está impartiendo, debe buscar en el menú de la parte derecha la opción de encuentros sincrónicos, los cuales ya fueron configurados y puestos a disposición por la Unidad de Educación Digital.</p>
-</div>
-  </li>
-</ul>
+  </div>
+</section>
 
+<section id="sos" class="sos" data-aos="fade-up" data-aos-delay="100">
+  <div class="container position-relative">
+    <div class="section-title3">
+      <h2>S.O.S Docentes</h2>
+    </div>
+    <div class="sos-list">
+      <ul>
+        <li
+          [@fadeUp]="'void'"
+          data-aos="fade-up"
+          (click)="toggleSOSList(1)"
+          data-aos-delay="100"
+        >
+          <img src="assets/img/docente/icon-pascual.png" class="icon-help" />
+          <a
+            data-bs-toggle="collapse"
+            class="list collapse collapsed"
+            data-bs-target="#sos-list-1"
+          >
+            <p>Aula virtual de aprendizaje</p>
+            <h4>Campus Integrado I. U. Pascual Bravo</h4>
+            <i class="bi bi-plus icon-show"></i
+            ><i class="bi bi-dash-lg icon-close"></i>
+          </a>
+          <div id="sos-list-1" class="collapse" data-bs-parent=".faq-list">
+            <div class="row gy-4 mb-5" data-aos="fade-up" data-aos-delay="100">
+              <p>
+                ¿Cómo ingresar y visualizar el aula virtual en el campus
+                integrado <strong>I. U. Pascual Bravo</strong>?
+              </p>
+              <button
+                class="cta-btn1"
+                onclick="window.open('https://soporte.pascualbravovirtual.edu.co/', '_blank')"
+              >
+                Soporte I.U.P. B <i class="bi bi-box-arrow-right"></i>
+              </button>
+              <div class="col-lg-6 col-md-6">
+                <div class="container cont-video h-100">
+                  <div class="ratio ratio-16x9">
+                    <iframe
+                      src="https://www.youtube.com/embed/8PQVMPJ_LhI?si=irfB6isglojipQU4?rel=0"
+                      title="YouTube video"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                  <div
+                    class="cont-body row d-flex align-items-center justify-content-between"
+                  >
+                    <div class="col-lg-6 col-md-6">
+                      <h4>Formato pestaña</h4>
+                    </div>
+                    <div class="col-lg-6 col-md-6"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <div class="container cont-video h-100">
+                  <div class="ratio ratio-16x9">
+                    <iframe
+                      src="https://www.youtube.com/embed/ETtymI88ZPc?si=Kd44hny4Kb7B4A2L?rel=0"
+                      title="YouTube video"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                  <div
+                    class="cont-body row d-flex align-items-center justify-content-between"
+                  >
+                    <div class="col-lg-6 col-md-6">
+                      <h4>Formato mosaico</h4>
+                    </div>
+                    <div class="col-lg-6 col-md-6"></div>
+                  </div>
+                </div>
+              </div>
             </div>
+            <div class="row gy-4 mb-5" data-aos="fade-up" data-aos-delay="100">
+              <div class="col-lg-6 col-md-6">
+                <div class="container cont-video h-100">
+                  <div class="ratio ratio-16x9">
+                    <iframe
+                      src="https://www.youtube.com/embed/R0Jbu6FgYO0?si=eZFcOsfTHvWhLfxy?rel=0"
+                      title="YouTube video"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                  <div
+                    class="cont-body row d-flex align-items-center justify-content-between"
+                  >
+                    <div class="col-lg-6 col-md-6">
+                      <h4>AEAE</h4>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                      <a
+                        class="cta-btn3 d-flex align-items-center justify-content-center"
+                        href="docs/docentes/iupb/Instructivo-AEAE-docentes.pdf"
+                        target="_blank"
+                        ><i class="bi bi-file-earmark-text-fill"></i>
+                        Instructivo</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <div class="container cont-video h-100">
+                  <div class="ratio ratio-16x9">
+                    <iframe
+                      src="https://www.youtube.com/embed/IIK_61nfUNE?si=81lhjCGiJjGtLgcy?rel=0"
+                      title="YouTube video"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                  <div
+                    class="cont-body row d-flex align-items-center justify-content-between"
+                  >
+                    <div class="col-lg-6 col-md-6">
+                      <h4>TIA formativa</h4>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                      <a
+                        class="cta-btn3 d-flex align-items-center justify-content-center"
+                        href="docs/docentes/iupb/Instructivo-TIA-formativas-docentes.pdf"
+                        target="_blank"
+                        ><i class="bi bi-file-earmark-text-fill"></i>
+                        Instructivo</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row gy-4 mb-5" data-aos="fade-up" data-aos-delay="100">
+              <div class="col-lg-6 col-md-6">
+                <div class="container cont-video h-100">
+                  <div class="ratio ratio-16x9">
+                    <iframe
+                      src="https://www.youtube.com/embed/PZVNaM9jFNo?si=nBMAAiZY7da8A-QI?rel=0"
+                      title="YouTube video"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                  <div
+                    class="cont-body row d-flex align-items-center justify-content-between"
+                  >
+                    <div class="col-lg-6 col-md-6">
+                      <h4>TIA sumativa</h4>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                      <a
+                        class="cta-btn3 d-flex align-items-center justify-content-center"
+                        href="docs/docentes/iupb/Instructivo-TIA-sumativas-docentes.pdf"
+                        target="_blank"
+                        ><i class="bi bi-file-earmark-text-fill"></i>
+                        Instructivo</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <div class="container cont-video h-100">
+                  <div class="ratio ratio-16x9">
+                    <iframe
+                      src="https://www.youtube.com/embed/nKDKP06kPiU?si=n9ZHINHZ4X1XS9QX?rel=0"
+                      title="YouTube video"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                  <div
+                    class="cont-body row d-flex align-items-center justify-content-between"
+                  >
+                    <div class="col-lg-6 col-md-6">
+                      <h4>Creación de grupos</h4>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                      <a
+                        class="cta-btn3 d-flex align-items-center justify-content-center"
+                        href="docs/docentes/iupb/Instructivo-Creacion-de-grupos-en-Moodle-docente.pdf"
+                        target="_blank"
+                        ><i class="bi bi-file-earmark-text-fill"></i>
+                        Instructivo</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row gy-4 mb-5" data-aos="fade-up" data-aos-delay="100">
+              <div class="col-lg-6 col-md-6">
+                <div class="container cont-video h-100">
+                  <div class="ratio ratio-16x9">
+                    <iframe
+                      src="https://www.youtube.com/embed/h2IxfjAKAek?si=Sie0tGRjOB0LpkEH?rel=0"
+                      title="YouTube video"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                  <div
+                    class="cont-body row d-flex align-items-center justify-content-between"
+                  >
+                    <div class="col-lg-6 col-md-6">
+                      <h4>Agenda de concertación</h4>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                      <a
+                        class="cta-btn3 d-flex align-items-center justify-content-center"
+                        href="docs/docentes/iupb/Instructivo-Agenda-concertacion-docentes.pdf"
+                        target="_blank"
+                        ><i class="bi bi-file-earmark-text-fill"></i>
+                        Instructivo</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <div class="container cont-video h-100">
+                  <div class="ratio ratio-16x9">
+                    <iframe
+                      src="https://www.youtube.com/embed/xwU2wVyJOQY?si=u-29dRpbl6dfQNhp?rel=0"
+                      title="YouTube video"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                  <div
+                    class="cont-body row d-flex align-items-center justify-content-between"
+                  >
+                    <div class="col-lg-6 col-md-6">
+                      <h4>Agenda de avance</h4>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                      <a
+                        class="cta-btn3 d-flex align-items-center justify-content-center"
+                        href="docs/docentes/iupb/Instructivo-Agenda-de-avance-docentes.pdf"
+                        target="_blank"
+                        ><i class="bi bi-file-earmark-text-fill"></i>
+                        Instructivo</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li
+          [@fadeUp]="'void'"
+          data-aos="fade-up"
+          (click)="toggleSOSList(2)"
+          data-aos-delay="100"
+        >
+          <img src="assets/img/docente/icon-medellin.png" class="icon-help" />
+          <a
+            data-bs-toggle="collapse"
+            class="list collapse collapsed"
+            data-bs-target="#sos-list-2"
+          >
+            <p>Aula virtual de aprendizaje</p>
+            <h4>Campus &#64;Medellín</h4>
+            <i class="bi bi-plus icon-show"></i
+            ><i class="bi bi-dash-lg icon-close"></i>
+          </a>
+          <div
+            id="sos-list-2"
+            class="collapse"
+            data-bs-parent=".faq-list"
+          >
+         <div class="row gy-4 mb-5" data-aos="fade-up" data-aos-delay="100">
+                           <p>¿Cómo ingresar y visualizar el aula virtual en el campus <strong>&#64;medellin</strong>?</p>
+                           <button class="cta-btn1" onclick="window.open('https://soporte.arrobamedellin.edu.co/support/upload/', '_blank')">Soporte &#64;medellin <i class="bi bi-box-arrow-right"></i></button>
+
+                           <div class="col-lg-4 col-md-4">
+                              <div class="container cont-video h-100">
+                                 <div class="ratio ratio-16x9">
+                                    <iframe src="https://www.youtube.com/embed/Eg3iFoX-BgY?si=ECinUwBHCLFS4ecw?rel=0" title="YouTube video" allowfullscreen></iframe>
+                                 </div>
+                                 <div class="cont-body row d-flex align-items-center justify-content-between">
+                                    <div class="col-lg-10 col-md-10">
+                                       <h4>Parte 1</h4>
+                                    </div>
+                                    <div class="col-lg-2 col-md-2">
+                                       
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div class="col-lg-4 col-md-4">
+                              <div class="container cont-video h-100">
+                                 <div class="ratio ratio-16x9">
+                                    <iframe src="https://www.youtube.com/embed/eSSUiMrqQp0?si=HQgF8sfTM_3KDrmv?rel=0" title="YouTube video" allowfullscreen></iframe>
+                                 </div>
+                                 <div class="cont-body row d-flex align-items-center justify-content-between">
+                                    <div class="col-lg-10 col-md-10">
+                                       <h4>Parte 2</h4>
+                                    </div>
+                                    <div class="col-lg-2 col-md-2">
+                                       
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div class="col-lg-4 col-md-4">
+                              <div class="container cont-video h-100">
+                                 <div class="ratio ratio-16x9">
+                                    <iframe src="https://www.youtube.com/embed/yT8xYP7e2Lk?si=EMGGIjUTe3CNSPkO?rel=0" title="YouTube video" allowfullscreen></iframe>
+                                 </div>
+                                 <div class="cont-body row d-flex align-items-center justify-content-between">
+                                    <div class="col-lg-10 col-md-10">
+                                       <h4>Parte 3</h4>
+                                    </div>
+                                    <div class="col-lg-2 col-md-2">
+                                       
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row gy-4 mb-5" data-aos="fade-up" data-aos-delay="100">
+                           <div class="col-lg-6 col-md-6">
+                              <div class="container cont-video h-100">
+                                 <div class="ratio ratio-16x9">
+                                    <iframe src="https://www.youtube.com/embed/R0Jbu6FgYO0?si=Q3sn4ZLPPGZtSmyU?rel=0" title="YouTube video" allowfullscreen></iframe>
+                                 </div>
+                                 <div class="cont-body row d-flex align-items-center justify-content-between">
+                                    <div class="col-lg-6 col-md-6">
+                                       <h4>AEAE</h4>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                       <a class="cta-btn3 d-flex align-items-center justify-content-center" href="docs/docentes/arroba/Instructivo_AEAE_docentes-arroba.pdf" target="_blank"><i class="bi bi-file-earmark-text-fill"></i> Instructivo</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-6 col-md-6">
+                              <div class="container cont-video h-100">
+                                 <div class="ratio ratio-16x9">
+                                    <iframe src="https://www.youtube.com/embed/IIK_61nfUNE?si=wtBdvOVrnW2anLkA?rel=0" title="YouTube video" allowfullscreen></iframe>
+                                 </div>
+                                 <div class="cont-body row d-flex align-items-center justify-content-between">
+                                    <div class="col-lg-6 col-md-6">
+                                       <h4>TIA formativa</h4>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                       <a class="cta-btn3 d-flex align-items-center justify-content-center" href="docs/docentes/arroba/Instructivo-TIA-formativas-docentes-arroba.pdf" target="_blank"><i class="bi bi-file-earmark-text-fill"></i> Instructivo</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row gy-4 mb-5" data-aos="fade-up" data-aos-delay="100">
+                           <div class="col-lg-6 col-md-6">
+                              <div class="container cont-video h-100">
+                                 <div class="ratio ratio-16x9">
+                                    <iframe src="https://www.youtube.com/embed/PZVNaM9jFNo?si=tDMb1_g98j10_sfQ?rel=0" title="YouTube video" allowfullscreen></iframe>
+                                 </div>
+                                 <div class="cont-body row d-flex align-items-center justify-content-between">
+                                    <div class="col-lg-6 col-md-6">
+                                       <h4>TIA sumativa</h4>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                       <a class="cta-btn3 d-flex align-items-center justify-content-center" href="docs/docentes/arroba/Instructivo-TIA-sumativas-docentes-arroba.pdf" target="_blank"><i class="bi bi-file-earmark-text-fill"></i> Instructivo</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-6 col-md-6">
+                              <div class="container cont-video h-100">
+                                 <div class="ratio ratio-16x9">
+                                    <iframe src="https://www.youtube.com/embed/u-NjNvqJfVc?si=ZwIyLvJ0Dgcc36oQ?rel=0" title="YouTube video" allowfullscreen></iframe>
+                                 </div>
+                                 <div class="cont-body row d-flex align-items-center justify-content-between">
+                                    <div class="col-lg-6 col-md-6">
+                                       <h4>Creación de grupos</h4>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                       <a class="cta-btn3 d-flex align-items-center justify-content-center" href="docs/docentes/arroba/Instructivo-creacion-grupos-docentes-arroba.pdf" target="_blank"><i class="bi bi-file-earmark-text-fill"></i> Instructivo</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+
+                <div class="row gy-4 mb-5" data-aos="fade-up" data-aos-delay="100">
+                           <div class="col-lg-6 col-md-6">
+                              <div class="container cont-video h-100">
+                                 <div class="ratio ratio-16x9">
+                                    <iframe src="https://www.youtube.com/embed/h2IxfjAKAek?si=cv8PsNiPPGn-Qifu?rel=0" title="YouTube video" allowfullscreen></iframe>
+                                 </div>
+                                 <div class="cont-body row d-flex align-items-center justify-content-between">
+                                    <div class="col-lg-6 col-md-6">
+                                       <h4>Agenda de concertación</h4>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                       <a class="cta-btn3 d-flex align-items-center justify-content-center" href="docs/docentes/arroba/Instructivo-Agenda-concertacion-docentes-arroba.pdf" target="_blank"><i class="bi bi-file-earmark-text-fill"></i> Instructivo</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-6 col-md-6">
+                              <div class="container cont-video h-100">
+                                 <div class="ratio ratio-16x9">
+                                    <iframe src="https://www.youtube.com/embed/xwU2wVyJOQY?si=g6hp3XH0i6LMSv3m?rel=0" title="YouTube video" allowfullscreen></iframe>
+                                 </div>
+                                 <div class="cont-body row d-flex align-items-center justify-content-between">
+                                    <div class="col-lg-6 col-md-6">
+                                       <h4>Agenda de avance</h4>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                       <a class="cta-btn3 d-flex align-items-center justify-content-center" href="docs/docentes/arroba/Instructivo-Agenda-de-avance-docentes-arroba.pdf" target="_blank"><i class="bi bi-file-earmark-text-fill"></i> Instructivo</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>                 
+         
          </div>
-      </section>
-
-
-      
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
 
 <app-cis></app-cis>
 <app-footer></app-footer>
