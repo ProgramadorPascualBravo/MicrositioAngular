@@ -26,31 +26,46 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
     ])
   ]
 })
-export class DocentesComponent {
-ngAfterViewInit() {
-  if (this.faqList1) {
-    this.faqList1.nativeElement.classList.add('show');
-  }
 
-  if (this.sosList1) {
-    this.sosList1.nativeElement.classList.add('show');
-  }
-}
+export class DocentesComponent {
+   elementoAbierto: number | null = null;
+   elementoAbiertoVideo: number | null = null;
+
+
   @ViewChild('faqList1') faqList1!: ElementRef;
   @ViewChild('sosList1') sosList1!: ElementRef;
-
-
   toggleCollapse(index: number) {
-    const element = document.getElementById(`faq-list-${index}`);
-    if (element) {
-      element.classList.toggle('show');
+    const currentElement = document.getElementById(`faq-list-${index}`);
+
+    if (this.elementoAbierto !== null && this.elementoAbierto !== index) {
+      const previousElement = document.getElementById(`faq-list-${this.elementoAbierto}`);
+      if (previousElement) {
+        previousElement.classList.remove('show');
+      }
     }
+
+    if (currentElement) {
+      currentElement.classList.toggle('show');
+    }
+
+    this.elementoAbierto = this.elementoAbierto === index ? null : index;
   }
 
   toggleSOSList(index: number) {
-    const element = document.getElementById(`sos-list-${index}`);
-    if (element) {
-      element.classList.toggle('show');
+    const currentElement = document.getElementById(`sos-list-${index}`);
+
+    if (this.elementoAbiertoVideo !== null && this.elementoAbiertoVideo !== index) {
+      const previousElement = document.getElementById(`sos-list-${this.elementoAbiertoVideo}`);
+      if (previousElement) {
+        previousElement.classList.remove('show');
+      }
     }
+
+    if (currentElement) {
+      currentElement.classList.toggle('show');
+    }
+
+    this.elementoAbiertoVideo = this.elementoAbiertoVideo === index ? null : index;
   }
+  
 }

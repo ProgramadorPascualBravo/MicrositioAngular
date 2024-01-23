@@ -63,7 +63,7 @@
             <i class="bx bx-chevron-down icon-show"></i>
             <i class="bx bx-chevron-up icon-close"></i>
           </a>
-          <div id="faq-list-1" class="collapse" data-bs-parent=".faq-list">
+          <div [hidden]="elementoAbierto === 1" id="faq-list-1" class="collapse" data-bs-parent=".faq-list">
             <p>
               Como profesor pascualino, puede ingresar al campus virtual
               institucional y, en la parte superior derecha, escribir los datos
@@ -91,7 +91,7 @@
             <i class="bx bx-chevron-down icon-show"></i>
             <i class="bx bx-chevron-up icon-close"></i>
           </a>
-          <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+          <div [hidden]="elementoAbierto === 2" id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
             <p>
               Debe escribir un correo al líder del programa para proceder con la
               gestión...
@@ -123,7 +123,7 @@
             <i class="bx bx-chevron-down icon-show"></i>
             <i class="bx bx-chevron-up icon-close"></i>
           </a>
-          <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+          <div [hidden]="elementoAbierto === 3" id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
             <p>
               Ingresa al siguiente enlace:
               <a
@@ -152,7 +152,7 @@
             <i class="bx bx-chevron-down icon-show"></i>
             <i class="bx bx-chevron-up icon-close"></i>
           </a>
-          <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+          <div [hidden]="elementoAbierto === 4" id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
             <p>
               Ingresa al siguiente enlace:
               <a
@@ -180,7 +180,7 @@
             <i class="bx bx-chevron-down icon-show"></i>
             <i class="bx bx-chevron-up icon-close"></i>
           </a>
-          <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+          <div [hidden]="elementoAbierto === 5" id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
             <p>
               El campus virtual de la Institución Universitaria Pascual Bravo
               tiene como usuario el correo institucional. Si usted no lo
@@ -205,7 +205,7 @@
             <i class="bx bx-chevron-down icon-show"></i>
             <i class="bx bx-chevron-up icon-close"></i>
           </a>
-          <div id="faq-list-6" class="collapse" data-bs-parent=".faq-list">
+          <div [hidden]="elementoAbierto === 6" id="faq-list-6" class="collapse" data-bs-parent=".faq-list">
             <p>
               Para configurar los grupos en cada curso o módulo, debe ingresar
               al módulo que esté guiando, en la parte derecha al menú, Editar
@@ -232,7 +232,7 @@
             <i class="bx bx-chevron-down icon-show"></i>
             <i class="bx bx-chevron-up icon-close"></i>
           </a>
-          <div id="faq-list-7" class="collapse" data-bs-parent=".faq-list">
+          <div [hidden]="elementoAbierto === 7" id="faq-list-7" class="collapse" data-bs-parent=".faq-list">
             <p>
               Para la gestión de las calificaciones dentro de la plataforma de
               campus virtual institucional, debe ingresar al curso o módulo
@@ -263,7 +263,7 @@
             <i class="bx bx-chevron-down icon-show"></i>
             <i class="bx bx-chevron-up icon-close"></i>
           </a>
-          <div id="faq-list-8" class="collapse" data-bs-parent=".faq-list">
+          <div [hidden]="elementoAbierto === 8" id="faq-list-8" class="collapse" data-bs-parent=".faq-list">
             <p>
               Aparte de disponer de computador con conexión a Internet, así como
               unos mínimos conocimientos informáticos, es especialmente importe,
@@ -305,7 +305,7 @@
             <i class="bx bx-chevron-down icon-show"></i>
             <i class="bx bx-chevron-up icon-close"></i>
           </a>
-          <div id="faq-list-9" class="collapse" data-bs-parent=".faq-list">
+          <div [hidden]="elementoAbierto === 9" id="faq-list-9" class="collapse" data-bs-parent=".faq-list">
             <p>
               Si presenta alguna dificultad, duda o necesita asesoría, debe
               escribir un correo (puede ser desde una cuenta de correo personal)
@@ -353,7 +353,7 @@
             <i class="bi bi-plus icon-show"></i
             ><i class="bi bi-dash-lg icon-close"></i>
           </a>
-          <div id="sos-list-1" class="collapse" data-bs-parent=".faq-list">
+          <div [hidden]="elementoAbiertoVideo === 1"  id="sos-list-1" class="collapse" data-bs-parent=".faq-list">
             <div class="row gy-4 mb-5" data-aos="fade-up" data-aos-delay="100">
               <p>
                 ¿Cómo ingresar y visualizar el aula virtual en el campus
@@ -594,7 +594,7 @@
             ><i class="bi bi-dash-lg icon-close"></i>
           </a>
           <div
-            id="sos-list-2"
+            [hidden]="elementoAbiertoVideo === 2"  id="sos-list-2"
             class="collapse"
             data-bs-parent=".faq-list"
           >
