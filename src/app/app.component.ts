@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
+// import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+// import { CommonModule } from '@angular/common';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -12,8 +13,9 @@ import 'aos/dist/aos.css';
   selector: 'app-root',
   standalone: true,
   imports: [
-    CommonModule,
     RouterOutlet,
+    // CommonModule,
+    // BrowserAnimationsModule
   ],
   
   templateUrl: './app.component.html',

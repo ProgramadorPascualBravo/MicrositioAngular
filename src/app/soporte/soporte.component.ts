@@ -10,7 +10,8 @@ import { CommonModule } from '@angular/common';
         HeaderComponent,
          FooterComponent,
          CisComponent,
-         CommonModule
+         CommonModule,
+
   ],
   templateUrl: './soporte.component.html',
   styleUrl: './soporte.component.scss'
@@ -39,21 +40,3 @@ export class SoporteComponent {
     this.elementoAbierto = this.elementoAbierto === index ? null : index;
   }
 }
-
-// export class SoporteComponent {
-// ngAfterViewInit() {
-//   if (this.faqList1) {
-//     this.faqList1.nativeElement.classList.add('show');
-//   }
-
-// }
-//   @ViewChild('faqList1') faqList1!: ElementRef;
-
-//   toggleCollapse(index: number) {
-//     const element = document.getElementById(`faq-list-${index}`);
-//     if (element) {
-//       element.classList.toggle('show');
-//     }
-//   }
-// }
-     

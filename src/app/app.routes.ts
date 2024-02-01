@@ -5,6 +5,7 @@ import { CompetenciaComponent } from './competencia/competencia.component';
 import { DocentesComponent } from './docentes/docentes.component';
 import { RecursosComponent } from './recursos/recursos.component';
 import { SoporteComponent } from './soporte/soporte.component';
+import { StudentsComponent } from './students/students.component';
 import { NgModule } from '@angular/core';
 
 export const routes: Routes = [
@@ -13,6 +14,7 @@ export const routes: Routes = [
   { path: 'unidad', component: UnidadComponent },
   { path: 'competencia', component: CompetenciaComponent },
   { path: 'docentes', component: DocentesComponent },
+  { path: 'students', component: StudentsComponent },
   { path: 'recursos', component: RecursosComponent },
   { path: 'soporte', component: SoporteComponent },
   { path: "**", redirectTo: "home" },
