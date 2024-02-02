@@ -30,17 +30,16 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
 })
 
 export class StudentsComponent {
-   elementoAbierto: number | null = null;
-   elementoAbiertoVideo: number | null = null;
-
+  elementoAbierto: number | null = null;
+  elementoAbiertoVideo: number | null = null;
 
   @ViewChild('faqList1') faqList1!: ElementRef;
-  @ViewChild('sosList1') sosList1!: ElementRef;
+
   toggleCollapse(index: number) {
-    const currentElement = document.getElementById(`faq1-list-${index}`);
+    const currentElement = document.getElementById(`faq-list-${index}`);
 
     if (this.elementoAbierto !== null && this.elementoAbierto !== index) {
-      const previousElement = document.getElementById(`faq1-list-${this.elementoAbierto}`);
+      const previousElement = document.getElementById(`faq-list-${this.elementoAbierto}`);
       if (previousElement) {
         previousElement.classList.remove('show');
       }
@@ -53,20 +52,20 @@ export class StudentsComponent {
     this.elementoAbierto = this.elementoAbierto === index ? null : index;
   }
 
-  // toggleSOSList(index: number) {
-  //   const currentElement = document.getElementById(`sos-list-${index}`);
+    toggleSOSList(index: number) {
+    const currentElement = document.getElementById(`sos-list-${index}`);
 
-  //   if (this.elementoAbiertoVideo !== null && this.elementoAbiertoVideo !== index) {
-  //     const previousElement = document.getElementById(`sos-list-${this.elementoAbiertoVideo}`);
-  //     if (previousElement) {
-  //       previousElement.classList.remove('show');
-  //     }
-  //   }
+    if (this.elementoAbiertoVideo !== null && this.elementoAbiertoVideo !== index) {
+      const previousElement = document.getElementById(`sos-list-${this.elementoAbiertoVideo}`);
+      if (previousElement) {
+        previousElement.classList.remove('show');
+      }
+    }
 
-  //   if (currentElement) {
-  //     currentElement.classList.toggle('show');
-  //   }
+    if (currentElement) {
+      currentElement.classList.toggle('show');
+    }
 
-  //   this.elementoAbiertoVideo = this.elementoAbiertoVideo === index ? null : index;
-  // }
+    this.elementoAbiertoVideo = this.elementoAbiertoVideo === index ? null : index;
+  }
 }

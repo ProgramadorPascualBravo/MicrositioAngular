@@ -3442,20 +3442,20 @@ color: #FFF;
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
-.faq1 .faq-list {
+.faq1 .faq-list1 {
   padding: 20px;
 }
 
-.faq1 .faq-list ul {
+.faq1 .faq-list1 ul {
   padding: 0;
   list-style: none;
 }
 
-.faq1 .faq-list li+li {
+.faq1 .faq-list1 li+li {
   margin-top: 5px;
 }
 
-.faq1 .faq-list li {
+.faq1 .faq-list1 li {
   padding: 0px;
   border-radius: 5px;
   border-radius: 4px;
@@ -3464,7 +3464,7 @@ color: #FFF;
 
 
 
-.faq1 .faq-list .list  {
+.faq1 .faq-list1 .list  {
     display: block;
     position: relative;
     font-family: "Roboto", sans-serif;
@@ -3482,7 +3482,7 @@ color: #FFF;
     padding: 8px;
 }
 
-.faq1 .faq-list .icon-help {
+.faq1 .faq-list1 .icon-help {
   font-size: 24px;
   position: absolute;
   top: 8px;
@@ -3490,51 +3490,281 @@ color: #FFF;
   color: #00b1c0;
 }
 
-.faq1 .faq-list .icon-show,
-.faq1 .faq-list .icon-close {
+.faq1 .faq-list1 .icon-show,
+.faq1 .faq-list1 .icon-close {
   font-size: 24px;
   position: absolute;
   right: 0;
   top: 8px;
 }
 
-.faq1 .faq-list p {
+.faq1 .faq-list1 p {
   margin-bottom: 0;
 }
 
-.faq1 .faq-list div{
+.faq1 .faq-list1 div{
   margin: 10px 10px 10px 45px;
   padding: 10px;
   background-color: #fff;
 }
 
-.faq1 .faq-list .icon-show {
+.faq1 .faq-list1 .icon-show {
   display: none;
 }
 
-.faq1 .faq-list a.collapsed{
+.faq1 .faq-list1 a.collapsed{
   color: #013549;
   background-color:#fff;
   font-weight: 600!important;
 }
 
 
-.faq1 .faq-list a.collapsed:hover {
+.faq1 .faq-list1 a.collapsed:hover {
   color: #2487ce;
   font-weight: 700;
 }
 
-.faq1 .faq-list a.collapsed .icon-show {
+.faq1 .faq-list1 a.collapsed .icon-show {
   display: inline-block;
   color: #00b1c0;
 }
 
-.faq1 .faq-list a.collapsed .icon-close {
+.faq1 .faq-list1 a.collapsed .icon-close {
   display: none;
 }
 
 @media (max-width: 1200px) {
-  .faq1 .faq-list {
+  .faq1 .faq-list1 {
     padding: 0;
   }
 }
+
+
+
+.sos1 .sos1-list {
+  padding: 20px 60px;
+}
+
+.sos1 .sos1-list ul {
+  padding: 0;
+  list-style: none;
+}
+
+.sos1 .sos1-list li+li {
+  margin-top: 15px;
+}
+
+.sos1 .sos1-list li {
+  padding: 0px;
+  border-radius: 5px;
+  border-radius: 4px;
+  position: relative;
+}
+
+
+
+.sos1 .sos1-list .list  {
+    display: block;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+    font-size: 16px;
+    color: #013549;
+    box-shadow: 0 0 29px 0 rgb(151 163 172 / 50%);
+    transition: all 0.3s ease-in-out;
+    font-weight: 700!important;
+    line-height: 24px;
+    font-weight: 500;
+    outline: 1px solid #fff;
+    cursor: pointer;
+    margin: 0 0 0 125px;
+    padding: 30px;
+}
+
+.sos1 .sos1-list .icon-help {
+    width: 120px;
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    color: #00b1c0;
+}
+
+.sos1 .sos1-list .icon-show,
+.sos1 .sos1-list .icon-close {
+    font-size: 50px;
+    position: absolute;
+    right: 15px;
+    top: 35px;
+}
+
+.sos1 .sos1-list p {
+  margin-bottom: 0;
+}
+
+.sos1 .sos1-list .contenido{
+  margin: 10px 10px 10px 45px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.sos1 .sos1-list .icon-show {
+  display: none;
+}
+
+.sos1 .sos1-list a.collapsed{
+  color: #013549;
+  background-color:#fff;
+  border-radius: 5px;
+  font-weight: 600!important;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.sos1 .sos1-list a.collapsed:hover {
+  color: #2487ce;
+  font-weight: 700;
+}
+
+.sos1 .sos1-list a.collapsed .icon-show {
+  display: inline-block;
+  color: #00b1c0;
+  transition: all 0.3s ease-in-out;
+}
+
+.sos1 .sos1-list a.collapsed .icon-close {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .sos1 .sos1-list {
+    padding: 0;
+  }
+}
+
+
+.sos1 .cta-btn1 {
+  width: 100%;
+  background: #0298a8;
+  border: 2px solid #0298a8;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  display: inline-block;
+  padding: 5px 5px;
+  border-radius: 10px;
+  transition: 0.5s;
+  margin: 20px 0;
+  color: #fff;
+}
+
+.sos1 .cta-btn1 i{
+  font-size: 20px;
+  color: #fff;
+}
+
+.sos1 .cta-btn1:hover {
+  background: #013549;
+  border: 2px solid #013549;
+  color: #fff;
+}
+
+
+.sos1 .cta-btn2 {
+  width: 100%;
+  background: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  display: inline-block;
+  padding: 8px 8px;
+  border-radius: 10px;
+  transition: 0.5s;
+  margin: 20px 0;
+  color: #013549;
+}
+
+.sos1 .cta-btn2 i{
+  font-size: 20px;
+  color: #afc132;
+}
+
+.sos1 .cta-btn2:hover {
+  background: #00d6db;
+  color: #fff;
+}
+
+.sos1 .cta-btn2:hover i {
+  color: #fff;
+}
+
+
+.sos1 .cta-btn3 {
+  width: 100%;
+  background: #0298a8;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  display: inline-block;
+  padding: 5px 5px;
+  border-radius: 5px;
+  transition: 0.5s;
+  color: #fff;
+}
+
+.sos1 .cta-btn3 i{
+  font-size: 20px;
+  color: #fff;
+  padding-right: 10px;
+}
+
+.sos1 .cta-btn3:hover {
+  background: #013549;
+  color: #fff;
+}
+
+
+.sos1 .cont-video{
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 29px 0 rgb(151 163 172 / 50%);
+  padding: 20px;
+}
+
+.sos1 .cont-body{
+  padding-top: 20px;
+}
+
+.cont-body h4 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #124265;
+}
+
+
+$carousel-control-color:             $white;
+$carousel-control-width:             15%;
+$carousel-control-opacity:           .5;
+$carousel-control-hover-opacity:     .9;
+$carousel-control-transition:        opacity .15s ease;
+
+$carousel-indicator-width:           30px;
+$carousel-indicator-height:          3px;
+$carousel-indicator-hit-area-height: 10px;
+$carousel-indicator-spacer:          3px;
+$carousel-indicator-opacity:         .5;
+$carousel-indicator-active-bg:       $white;
+$carousel-indicator-active-opacity:  1;
+$carousel-indicator-transition:      opacity .6s ease;
+
+$carousel-caption-width:             70%;
+$carousel-caption-color:             $white;
+$carousel-caption-padding-y:         1.25rem;
+$carousel-caption-spacer:            1.25rem;
+
+$carousel-control-icon-width:        2rem;
+
+$carousel-control-prev-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/></svg>");
+$carousel-control-next-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/></svg>");
+
+$carousel-transition-duration:       .6s;
+$carousel-transition:                transform $carousel-transition-duration ease-in-out; // Define transform transition first if using multiple transitions (e.g., `transform 2s ease, opacity .5s ease-out`)
