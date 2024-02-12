@@ -14,6 +14,7 @@ export class HeaderComponent {
   interaccionesRealizadasResta: number = 0;
   limiteInterecciones: number = 4;
   dropdownVisible: boolean = false;
+    dropdownVisibleMenu: boolean = false;
 
   constructor() { }
 
@@ -28,6 +29,10 @@ export class HeaderComponent {
   toggleDropdown() {
     this.dropdownVisible = !this.dropdownVisible;
   }
+  toggleDropdownMenu() {
+    this.dropdownVisibleMenu = !this.dropdownVisibleMenu;
+  }
+
  aumentarLetra() {
     if (this.interaccionesRealizadas < this.limiteInterecciones) {
       this.fontSize += 2;
