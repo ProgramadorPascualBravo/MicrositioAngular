@@ -18,6 +18,13 @@ export class HeaderComponent {
 
   constructor() { }
 
+   redirectSicau() {
+    window.location.href = 'https://sicau.pascualbravo.edu.co/SICAU/Account/Login';
+  }
+   redirectCampus() {
+    window.location.href = 'https://campus.pascualbravovirtual.edu.co/login/index.php';
+  }
+
   ngOnInit(): void {
     const contrasteAlmacenado = localStorage.getItem("contraste");
     if (contrasteAlmacenado === "true") {

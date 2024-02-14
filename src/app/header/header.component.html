@@ -83,11 +83,11 @@
     <div class="col-lg-1 col-md-2 col-sm-6 d-flex align-items-center justify-content-center">
       <nav class="navbar3 bg-body-tertiary" >
         <form class="container-fluid justify-content-start"> 
-          <button class="btn btn-outline-success me-2" type="button">
+          <button class="btn btn-outline-success me-2" type="button" (click)="redirectSicau()">
             <img src="../../assets/img/accessIcon.png" alt="Icono de acceso" class="icono-acceso" style="width: 25px;">
             Acceso SICAU
           </button>
-          <button class="btn btn-outline-success me-2" type="button" style="background-color: #09738c;color: white;">Acceso CAMPUS</button>
+          <button class="btn btn-outline-success me-2" type="button" style="background-color: #09738c;color: white;" (click)="redirectCampus()">Acceso CAMPUS</button>
         </form>
       </nav>
     </div>
