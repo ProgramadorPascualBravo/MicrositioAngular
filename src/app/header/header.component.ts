@@ -19,10 +19,20 @@ export class HeaderComponent {
   constructor() { }
 
    redirectSicau() {
-    window.location.href = 'https://sicau.pascualbravo.edu.co/SICAU/Account/Login';
+   const newWindowSicau = window.open('https://sicau.pascualbravo.edu.co/SICAU/Account/Login', '_blank');
+     if (newWindowSicau) {
+    newWindowSicau.opener = null;
+  } else {
+    console.error('No se pudo abrir la ventana.');
+  }
   }
    redirectCampus() {
-    window.location.href = 'https://campus.pascualbravovirtual.edu.co/login/index.php';
+     const newWindowCampus = window.open('https://campus.pascualbravovirtual.edu.co/login/index.php', '_blank');
+     if (newWindowCampus) {
+    newWindowCampus.opener = null;
+  } else {
+    console.error('No se pudo abrir la ventana.');
+  }
   }
 
   ngOnInit(): void {
