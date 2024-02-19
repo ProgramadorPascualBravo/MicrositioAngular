@@ -143,55 +143,56 @@
       </div>
     </nav>
   </div>
-</header>
-<!-- End Header -->
 
-<div class="dropdown">
-  <button class="btn" type="button" id="dropdownMenuButton" (click)="toggleDropdown()">
-    <img class="img-accesibilidad" src="assets/img/Btn-accesibilidad.png" alt="Boton de accesibilidad" />
-  </button>
-  <div class="dropdown-menu accesibilidad" [class.show]="dropdownVisible" aria-labelledby="dropdownMenuButton">
-    <a class="d-flex align-items-right" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample"
-      aria-expanded="false" aria-controls="collapseWidthExample" class="collapsed"><i class="bi bi-x-lg"></i></a>
-    <div class="row">
-      <button class="btn" type="button" id="dropdownMenuButton" (click)="toggleDropdown()"><svg
-          xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle"
-          viewBox="0 0 16 16">
-          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
-          <path
-            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
-        </svg></button>
-      <div class="col-lg-12 mb-1 d-flex justify-content-center">
-        <button (click)="aumentarLetra()" class="btn-access h-100" id="aumentarLetra">
-          <img class="icon-acces" src="assets/img/Aumentar-tamaño.png" alt="" />
-          <p>Aumentar Tamaño</p>
-        </button>
-      </div>
-      <div class="col-lg-12 mb-1 d-flex justify-content-center">
-        <button (click)="disminuirLetra()" class="btn-access h-100" id="disminuirLetra">
-          <img class="icon-acces" src="assets/img/Disminuir-tamaño.png" alt="" />
-          <p>Disminuir Tamaño</p>
-        </button>
-      </div>
-      <div class="col-lg-12 mb-1 d-flex justify-content-center">
-        <button (click)="resetearLetra()" class="btn-access h-100" id="volverTamano">
-          <img class="icon-acces" src="assets/img/Normal.png" alt="" />
-          <p>Tamaño Inicial</p>
-        </button>
-      </div>
-      <div class="col-lg-12 mb-1 d-flex justify-content-center">
-        <button (click)="cambiarContraste()" class="btn-access h-100" id="cambiarContraste">
-          <img class="icon-acces" src="assets/img/Cambiar-contraste.png" alt="" />
-          <p>Cambiar Contraste</p>
-        </button>
-      </div>
-      <div class="col-lg-12 mb-1 d-flex justify-content-center">
-        <button class="btn-access h-100" aria-label="Centro de Relevo (se abre en una nueva pestaña)"
-          onclick="window.open('https://centroderelevo.gov.co/632/w3-channel.html', '_blank')">
-          <img class="icon-acces" src="assets/img/Centro.png" alt="" />
-          <p>Centro de Relevo</p>
-        </button>
+  <div class="dropdown">
+    <button class="btn" type="button" id="dropdownMenuButton" (click)="toggleDropdown()">
+      <img class="img-accesibilidad" src="assets/img/Btn-accesibilidad.png" alt="Boton de accesibilidad" />
+    </button>
+    <div class="dropdown-menu accesibilidad" [class.show]="dropdownVisible" aria-labelledby="dropdownMenuButton">
+      <a class="d-flex align-items-right" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample"
+        aria-expanded="false" aria-controls="collapseWidthExample" class="collapsed"><i class="bi bi-x-lg"></i></a>
+      <div class="row">
+        <button class="btn" type="button" id="dropdownMenuButton" (click)="toggleDropdown()"><svg
+            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle"
+            viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+            <path
+              d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
+          </svg></button>
+        <div class="col-lg-12 mb-1 d-flex justify-content-center">
+          <button (click)="aumentarLetra()" class="btn-access h-100" id="aumentarLetra">
+            <img class="icon-acces" src="assets/img/Aumentar-tamaño.png" alt="" />
+            <p>Aumentar Tamaño</p>
+          </button>
+        </div>
+        <div class="col-lg-12 mb-1 d-flex justify-content-center">
+          <button (click)="disminuirLetra()" class="btn-access h-100" id="disminuirLetra">
+            <img class="icon-acces" src="assets/img/Disminuir-tamaño.png" alt="" />
+            <p>Disminuir Tamaño</p>
+          </button>
+        </div>
+        <div class="col-lg-12 mb-1 d-flex justify-content-center">
+          <button (click)="resetearLetra()" class="btn-access h-100" id="volverTamano">
+            <img class="icon-acces" src="assets/img/Normal.png" alt="" />
+            <p>Tamaño Inicial</p>
+          </button>
+        </div>
+        <div class="col-lg-12 mb-1 d-flex justify-content-center">
+          <button (click)="cambiarContraste()" class="btn-access h-100" id="cambiarContraste">
+            <img class="icon-acces" src="assets/img/Cambiar-contraste.png" alt="" />
+            <p>Cambiar Contraste</p>
+          </button>
+        </div>
+        <div class="col-lg-12 mb-1 d-flex justify-content-center">
+          <button class="btn-access h-100" aria-label="Centro de Relevo (se abre en una nueva pestaña)"
+            onclick="window.open('https://centroderelevo.gov.co/632/w3-channel.html', '_blank')">
+            <img class="icon-acces" src="assets/img/Centro.png" alt="" />
+            <p>Centro de Relevo</p>
+          </button>
+        </div>
       </div>
     </div>
   </div>
-</div>
+</header>
+<!-- End Header -->
+
