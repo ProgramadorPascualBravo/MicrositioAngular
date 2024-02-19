@@ -339,7 +339,7 @@ h6 {
   transition: all 0.5s;
   background: #013549;
   z-index: 997;
-  padding: 1px 0;
+  padding: 0px 0px 15px 0px;
   border-bottom: 1px solid #013549;
 }
 
@@ -347,6 +347,44 @@ h6 {
   border-color: #013549;
   box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
 }
+
+#header .buton1 {
+  background-color: #fff;
+  color: #09738c;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
+
+#header .buton1:hover {
+  background-color: #09738c;
+  color: #FFF;
+}
+
+#header .buton1:hover img {
+  filter: brightness(100);
+}
+
+#header .buton2 {
+  background-color: #09738c;
+  color: #fff;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
+
+#header .buton2:hover {
+  background-color: #fff;
+  color: #09738c;
+  border: 1px solid #09738c;
+}
+
+#header .buton2:hover img {
+  filter: brightness(100);
+}
+
+
+
 
 #header .logo {
   font-size: 28px;
@@ -460,7 +498,7 @@ h6 {
   text-decoration-color: #00d6db; /* Color de la línea subrayada */
   text-decoration-thickness: 2px; /* Grosor de la línea subrayada */
   text-underline-position: center; /* Centra la línea subrayada */
-  text-underline-offset: 7px; /* Ajusta el espacio entre el texto y la línea subrayada */
+  text-underline-offset: 35px; /* Ajusta el espacio entre el texto y la línea subrayada */
   transition: transform 0.5s;
   transform-origin: left;
 }
