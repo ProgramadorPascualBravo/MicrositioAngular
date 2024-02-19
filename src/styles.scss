@@ -16,6 +16,7 @@
   }
 }
 body {
+  scrollbar-width: none;
   font-family: "Roboto", sans-serif;
   color: #444444 !important;
 }
@@ -338,7 +339,7 @@ h6 {
   transition: all 0.5s;
   background: #013549;
   z-index: 997;
-  padding: 2px 0;
+  padding: 1px 0;
   border-bottom: 1px solid #013549;
 }
 
