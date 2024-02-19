@@ -537,6 +537,17 @@ h6 {
     left: -160px;
 }
 
+.navbar .dropdown ul a:hover{
+color: #FFFFFF;
+font-weight: bold;
+text-decoration: underline; /* Agrega una línea subrayada */
+text-decoration-color: #00d6db; /* Color de la línea subrayada */
+text-decoration-thickness: 2px; /* Grosor de la línea subrayada */
+text-underline-position: center; /* Centra la línea subrayada */
+text-underline-offset: 5px; /* Ajusta el espacio entre el texto y la línea subrayada */
+transition: transform 0.5s;
+transform-origin: left;
+}
 
 .navbar .dropdown ul a {
   padding: 10px 20px;
@@ -4187,6 +4198,10 @@ $carousel-transition:                transform $carousel-transition-duration eas
           .dropdown-menu {
             position: absolute;
           }
+
+          
+
+
 
           .nav-link {
             padding-right: var(--#{$prefix}navbar-nav-link-padding-x);
