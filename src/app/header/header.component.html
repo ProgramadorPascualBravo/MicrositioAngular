@@ -82,19 +82,20 @@
           </div>
         </div>
       </div>
+      <div class="col-lg-1 col-md-2 col-sm-6 d-flex align-items-center justify-content-center">
+        <nav class="navbar3 bg-body-tertiary">
+          <form class="container-fluid justify-content-start">
+            <button class="buton1 me-2" type="button" (click)="redirectSicau()">
+              <img src="../../assets/img/accessIcon.png" alt="Icono de acceso" class="icono-acceso" style="width: 25px;">
+              Acceso SICAU
+            </button>
+            <button class="buton2 me-2" type="button" 
+              (click)="redirectCampus()">Acceso CAMPUS</button>
+          </form>
+        </nav>
+      </div>
     </div>
-    <div class="col-lg-1 col-md-2 col-sm-6 d-flex align-items-center justify-content-center">
-      <nav class="navbar3 bg-body-tertiary">
-        <form class="container-fluid justify-content-start">
-          <button class="buton1 me-2" type="button" (click)="redirectSicau()">
-            <img src="../../assets/img/accessIcon.png" alt="Icono de acceso" class="icono-acceso" style="width: 25px;">
-            Acceso SICAU
-          </button>
-          <button class="buton2 me-2" type="button" 
-            (click)="redirectCampus()">Acceso CAMPUS</button>
-        </form>
-      </nav>
-    </div>
+
   </div>
 
 
@@ -177,6 +178,16 @@
             </li>
             <li>
               <a class="nav-link scrollto" alt="Centro de Soporte" href="../soporte">Centro de Soporte</a>
+            </li>
+            <li>
+              <button class="buton1 me-2" style="margin-left: 9%;" type="button" (click)="redirectSicau()">
+                <img src="../../assets/img/accessIcon.png" alt="Icono de acceso" class="icono-acceso" style="width: 25px;">
+                Acceso SICAU
+              </button>
+            </li>
+            <li>
+              <button class="buton2 me-2" style="margin-left: 9%;" type="button" 
+            (click)="redirectCampus()">Acceso CAMPUS</button>
             </li>
           </ul>
         </li>

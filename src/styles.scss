@@ -16,9 +16,12 @@
   }
 }
 body {
-  scrollbar-width: none!important;
   font-family: "Roboto", sans-serif;
   color: #444444 !important;
+}
+
+body, html{
+  scrollbar-width: none!important;
 }
 
 body .img-accesibilidad {
@@ -354,6 +357,8 @@ h6 {
   padding: 8px;
   border-radius: 5px;
   border: none;
+  margin-left: 5px;
+  margin-bottom: 5px;
 }
 
 #header .buton1:hover {
@@ -371,6 +376,8 @@ h6 {
   padding: 8px;
   border-radius: 5px;
   border: none;
+  margin-left: 5px;
+  margin-bottom: 5px;
 }
 
 #header .buton2:hover {
@@ -438,6 +445,8 @@ h6 {
   .container2 {
     display: none;
   }
+
+
   .show-content-button {
     display: block;
     margin: 10px auto;
