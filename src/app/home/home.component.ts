@@ -3,7 +3,7 @@ import { HeaderComponent } from '../header/header.component';
 import { FooterComponent } from '../footer/footer.component';
 import { CisComponent } from '../cis/cis.component';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
-import { Meta } from '@angular/platform-browser';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-home',
@@ -19,8 +19,10 @@ import { Meta } from '@angular/platform-browser';
 })
 
 export class HomeComponent {
-  constructor(private meta: Meta) {
+  constructor(private meta: Meta, private titleService: Title) {
+    this.titleService.setTitle('Home'); // Aquí defines el título dinámico
     this.meta.addTag({ name: 'description', content: '¿Buscas estudiar virtual? Estudia programas virtuales con la I.U. Pascual Bravo.' });
     this.meta.addTag({ name: 'keywords', content: 'Estudiar virtual, Programas virtuales, Modalidad virtual' });
+    
   }
 }
