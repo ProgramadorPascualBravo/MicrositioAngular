@@ -4053,12 +4053,254 @@ $carousel-transition:                transform $carousel-transition-duration eas
 
 #hero1 h1 {
   margin: 0;
-  font-size: 50px;
-  font-weight: 700;
+  font-size: 90px;
+  font-weight: 600;
   line-height: 50px;
   color: #124265;
   font-family: "Roboto", sans-serif;
 }
+
+#hero h1 {
+  margin: 0;
+  font-size: 90px;
+  font-weight: 100;
+  line-height: 100px;
+  color: #002b40;
+  font-family: "Roboto", sans-serif;
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+  #hero h1 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+}
+
+
+@media screen and (max-width: 990px) {
+  #hero h1 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #hero h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #hero h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #hero h1 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  #hero h1 {
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
+#hero h1 .titulo-bold {
+  font-weight: 800!important;
+}
+
+.hero .parrafo-1 {
+  position: absolute;
+  top: 35%;
+  left: 6%;
+  width: 50%;
+  transform: translate(-50%, -50%);
+  color: #002b40;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.5); 
+  padding: 10px 20px; 
+}
+
+.hero .parrafo-1 .tono1 {
+ color: #009ddb;
+}
+
+/* Media queries para diferentes tamaños de pantalla 
+
+@media screen and (max-width: 1350px) {
+  .hero .parrafo-1 {
+    font-size: 25px;
+    width: 40%;
+    left: 15%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+  }
+}*/
+
+
+@media screen and (max-width: 1200px) {
+  .hero .parrafo-1 {
+    font-size: 25px;
+    width: 40%;
+    left: 20%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+
+@media screen and (max-width: 990px) {
+  .hero .parrafo-1 {
+    font-size: 15px;
+    width: 40%;
+    left: 20%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  .hero .parrafo-1 {
+    font-size: 15px;
+    width: 40%;
+    left: 25%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+
+  @media screen and (max-width: 768px) {
+    .hero .parrafo-1 {
+      font-size: 14px;
+      width: 45%;
+      left: 10%;
+      top: 40%;
+      transform: translate(-50%, -50%);
+    }
+    }
+    @media screen and (max-width: 650px) {
+      .hero .parrafo-1 {
+        font-size: 12px;
+        width: 40%;
+        left: 20%;
+        top: 40%;
+        transform: translate(-50%, -50%);
+      }
+      }
+
+@media screen and (max-width: 480px) {
+.hero .parrafo-1 {
+      font-size: 8px;
+      width: 40%;
+      left: 20%;
+      top: 40%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+
+
+
+.hero .parrafo-2 {
+  position: absolute;
+  top: 16%;
+  left: 90%;
+  width: 40%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 10px 10px; 
+}
+
+/* Media queries para diferentes tamaños de pantalla */
+
+
+
+
+@media screen and (max-width: 1200px) {
+  .hero .parrafo-2 {
+    text-align: center;
+    font-size: 25px;
+    width: 40%;
+    left: 82%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+
+@media screen and (max-width: 990px) {
+  .hero .parrafo-2 {
+    text-align: center;
+    font-size: 15px;
+    width: 40%;
+    left: 80%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .hero .parrafo-2 {
+    text-align: center;
+    font-size: 15px;
+    width: 40%;
+    left: 85%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero .parrafo-2 {
+    text-align: center;
+    font-size: 14px;
+    width: 45%;
+    left: 90%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .hero .parrafo-2 {
+    text-align: center;
+    font-size: 12px;
+    width: 40%;
+    left: 80%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero .parrafo-2 {
+    text-align: center;
+    font-size: 8px;
+    width: 40%;
+    left: 90%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+  }
+}
+
 
 #hero1 h2 {
   color: #5e5e5e;
