@@ -4062,7 +4062,7 @@ $carousel-transition:                transform $carousel-transition-duration eas
 
 #hero h1 {
   margin: 0;
-  font-size: 90px;
+  font-size: 80px;
   font-weight: 100;
   line-height: 100px;
   color: #002b40;
@@ -4072,7 +4072,7 @@ $carousel-transition:                transform $carousel-transition-duration eas
 
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199.98px) {
   #hero h1 {
     font-size: 50px;
     line-height: 50px;
@@ -4080,28 +4080,23 @@ $carousel-transition:                transform $carousel-transition-duration eas
 }
 
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 991.98px) {
   #hero h1 {
     font-size: 40px;
     line-height: 40px;
   }
 }
 
-@media screen and (max-width: 900px) {
-  #hero h1 {
-    font-size: 30px;
-    line-height: 40px;
-  }
-}
 
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 767.98px) {
   #hero h1 {
     font-size: 25px;
     line-height: 30px;
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 575.98px) {
   #hero h1 {
     font-size: 20px;
     line-height: 20px;
@@ -4130,28 +4125,20 @@ $carousel-transition:                transform $carousel-transition-duration eas
   font-size: 30px;
   font-weight: 600;
   text-align: left;
-  background-color: rgba(255, 255, 255, 0.5); 
-  padding: 10px 20px; 
+  background-color: rgba(255, 255, 255, 0.1); 
+  padding: 10px 10px; 
 }
 
 .hero .parrafo-1 .tono1 {
  color: #009ddb;
 }
 
-/* Media queries para diferentes tamaños de pantalla 
-
-@media screen and (max-width: 1350px) {
-  .hero .parrafo-1 {
-    font-size: 25px;
-    width: 40%;
-    left: 15%;
-    top: 35%;
-    transform: translate(-50%, -50%);
-  }
-}*/
+/* Media queries para diferentes tamaños de pantalla */
 
 
-@media screen and (max-width: 1200px) {
+
+
+@media screen and (max-width: 1199.98px) {
   .hero .parrafo-1 {
     font-size: 25px;
     width: 40%;
@@ -4162,7 +4149,7 @@ $carousel-transition:                transform $carousel-transition-duration eas
 }
 
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 991.98px) {
   .hero .parrafo-1 {
     font-size: 15px;
     width: 40%;
@@ -4173,18 +4160,7 @@ $carousel-transition:                transform $carousel-transition-duration eas
 }
 
 
-@media screen and (max-width: 900px) {
-  .hero .parrafo-1 {
-    font-size: 15px;
-    width: 40%;
-    left: 25%;
-    top: 40%;
-    transform: translate(-50%, -50%);
-  }
-}
-
-
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767.98px) {
     .hero .parrafo-1 {
       font-size: 14px;
       width: 45%;
@@ -4193,7 +4169,7 @@ $carousel-transition:                transform $carousel-transition-duration eas
       transform: translate(-50%, -50%);
     }
     }
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width: 575.98px) {
       .hero .parrafo-1 {
         font-size: 12px;
         width: 40%;
@@ -4225,7 +4201,8 @@ $carousel-transition:                transform $carousel-transition-duration eas
   color: white;
   font-size: 30px;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.5); 
+  background-color: rgba(0, 0, 0, 0.1); 
+  border-radius: 0px 50px 50px 0px;
   padding: 10px 10px; 
 }
 
@@ -4234,7 +4211,7 @@ $carousel-transition:                transform $carousel-transition-duration eas
 
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199.98px) {
   .hero .parrafo-2 {
     text-align: center;
     font-size: 25px;
@@ -4246,7 +4223,7 @@ $carousel-transition:                transform $carousel-transition-duration eas
 }
 
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 991.98px) {
   .hero .parrafo-2 {
     text-align: center;
     font-size: 15px;
@@ -4257,18 +4234,9 @@ $carousel-transition:                transform $carousel-transition-duration eas
   }
 }
 
-@media screen and (max-width: 900px) {
-  .hero .parrafo-2 {
-    text-align: center;
-    font-size: 15px;
-    width: 40%;
-    left: 85%;
-    top: 40%;
-    transform: translate(-50%, -50%);
-  }
-}
 
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 767.98px) {
   .hero .parrafo-2 {
     text-align: center;
     font-size: 14px;
@@ -4279,7 +4247,7 @@ $carousel-transition:                transform $carousel-transition-duration eas
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 575.98px) {
   .hero .parrafo-2 {
     text-align: center;
     font-size: 12px;
