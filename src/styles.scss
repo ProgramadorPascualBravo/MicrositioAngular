@@ -1340,16 +1340,11 @@ display: none;
 @media (max-width: 992px) {
   #hero {
     height: auto;
-    
   }
 
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
-    text-align: left;
-  }
-
-  #hero p {
     text-align: left;
   }
 
@@ -4107,7 +4102,7 @@ $carousel-transition:                transform $carousel-transition-duration eas
 @media screen and (max-width: 480px) {
   #hero h1 {
     font-size: 15px;
-    line-height: 18px;
+    line-height: 20px;
   }
 }
 
@@ -4125,7 +4120,6 @@ $carousel-transition:                transform $carousel-transition-duration eas
   font-size: 30px;
   font-weight: 600;
   text-align: left;
-  background-color: rgba(255, 255, 255, 0.1); 
   padding: 10px 10px; 
 }
 
@@ -4141,9 +4135,9 @@ $carousel-transition:                transform $carousel-transition-duration eas
 @media screen and (max-width: 1199.98px) {
   .hero .parrafo-1 {
     font-size: 25px;
-    width: 40%;
-    left: 20%;
-    top: 35%;
+    width: 38%;
+    left: 14%;
+    top: 40%;
     transform: translate(-50%, -50%);
   }
 }
@@ -4152,7 +4146,7 @@ $carousel-transition:                transform $carousel-transition-duration eas
 @media screen and (max-width: 991.98px) {
   .hero .parrafo-1 {
     font-size: 15px;
-    width: 40%;
+    width: 38%;
     left: 20%;
     top: 55%;
     transform: translate(-50%, -50%);
@@ -4164,7 +4158,7 @@ $carousel-transition:                transform $carousel-transition-duration eas
     .hero .parrafo-1 {
       font-size: 14px;
       width: 45%;
-      left: 10%;
+      left: 5%;
       top: 40%;
       transform: translate(-50%, -50%);
     }
@@ -4172,20 +4166,20 @@ $carousel-transition:                transform $carousel-transition-duration eas
     @media screen and (max-width: 575.98px) {
       .hero .parrafo-1 {
         font-size: 12px;
-        width: 40%;
+        width: 34%;
         left: 20%;
-        top: 40%;
+        top: 33%;
         transform: translate(-50%, -50%);
       }
       }
 
 @media screen and (max-width: 480px) {
 .hero .parrafo-1 {
-      font-size: 8px;
-      width: 40%;
-      left: 20%;
-      top: 40%;
-      transform: translate(-50%, -50%);
+  font-size: 9px;
+  width: 30%;
+  left: 20%;
+  top: 35%;
+  transform: translate(-50%, -50%);
     }
   }
 
@@ -4200,8 +4194,7 @@ $carousel-transition:                transform $carousel-transition-duration eas
   transform: translate(-50%, -50%);
   color: white;
   font-size: 30px;
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.1); 
+  text-align: center; 
   border-radius: 0px 50px 50px 0px;
   padding: 10px 10px; 
 }
@@ -4211,61 +4204,78 @@ $carousel-transition:                transform $carousel-transition-duration eas
 
 
 
-@media screen and (max-width: 1199.98px) {
+@media (max-width: 1199.98px) {
   .hero .parrafo-2 {
     text-align: center;
-    font-size: 25px;
-    width: 40%;
-    left: 82%;
-    top: 35%;
+    font-size: 20px;
+    width: 35%;
+    left: 84%;
+    top: 23%;
     transform: translate(-50%, -50%);
+    background-color: rgba(0, 68, 255, 0.1); 
+    border-radius: 0px 50px 50px 0px;
+    padding: 10px 0px 0px 0px; 
   }
 }
 
 
-@media screen and (max-width: 991.98px) {
+@media (max-width: 991.98px) {
   .hero .parrafo-2 {
+    font-size: 12px;
     text-align: center;
-    font-size: 15px;
-    width: 40%;
-    left: 80%;
-    top: 55%;
+    justify-content: center;
+    align-content: center;
+    width: 28%;
+    left: 78%;
+    top: 34%;
     transform: translate(-50%, -50%);
+    background-color: rgba(0, 68, 255, 0.1); 
+    border-radius: 0px 50px 50px 0px;
+    padding: 10px 0px 0px 0px; 
   }
 }
 
 
 
-@media screen and (max-width: 767.98px) {
-  .hero .parrafo-2 {
-    text-align: center;
-    font-size: 14px;
-    width: 45%;
-    left: 90%;
-    top: 40%;
-    transform: translate(-50%, -50%);
-  }
-}
-
-@media screen and (max-width: 575.98px) {
+@media (max-width: 767.98px) {
   .hero .parrafo-2 {
     text-align: center;
     font-size: 12px;
-    width: 40%;
-    left: 80%;
-    top: 40%;
+    width: 45%;
+    left: 89%;
+    top: 27%;
     transform: translate(-50%, -50%);
+    background-color: rgba(0, 68, 255, 0.1);
+    border-radius: 0px 50px 50px 0px;
+    padding: 10px 0px 0px 0px;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media (max-width: 575.98px) {
+  .hero .parrafo-2 {
+    text-align: center;
+    font-size: 10px;
+    width: 35%;
+    left: 78%;
+    top: 23%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(176, 194, 245, 0.1);
+    border-radius: 0px 50px 50px 0px;
+    padding: 2px 0px 0px 0px;
+  }
+}
+
+@media (max-width: 480px) {
   .hero .parrafo-2 {
     text-align: center;
     font-size: 8px;
-    width: 40%;
-    left: 90%;
-    top: 40%;
+    width: 35%;
+    left: 78%;
+    top: 26%;
     transform: translate(-50%, -50%);
+    background-color: rgba(176, 194, 245, 0.1);
+    border-radius: 0px 50px 50px 0px;
+    padding: 2px 0px 0px 0px;
   }
 }
 
