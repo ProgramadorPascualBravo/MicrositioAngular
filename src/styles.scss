@@ -4119,15 +4119,15 @@ $carousel-transition:                transform $carousel-transition-duration eas
 
 .hero .parrafo-1 {
   position: absolute;
-  top: 35%;
-  left: 6%;
-  width: 50%;
+  top: 28%;
+  left: 13%;
+  width: 38%;
   transform: translate(-50%, -50%);
   color: #002b40;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 600;
   text-align: left;
-  padding: 10px 10px; 
+  padding: 10px 10px;
 }
 
 .hero .parrafo-1 .tono1 {
@@ -4219,18 +4219,18 @@ $carousel-transition:                transform $carousel-transition-duration eas
       }
 
 
-.hero .parrafo-2 {
-  position: absolute;
-  top: 16%;
-  left: 90%;
-  width: 40%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 30px;
-  text-align: center; 
-  border-radius: 0px 50px 50px 0px;
-  padding: 10px 10px; 
-}
+      .hero .parrafo-2 {
+        position: absolute;
+        top: 16%;
+        left: 83%;
+        width: 35%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 26px;
+        text-align: center;
+        border-radius: 0px 50px 50px 0px;
+        padding: 10px 10px;
+    }
 
 /* Media queries para diferentes tamaños de pantalla */
 
