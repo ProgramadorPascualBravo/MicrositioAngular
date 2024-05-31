@@ -313,7 +313,9 @@ h6 {
   margin-top: 15px;
 }
 
-
+.text-descripcion{
+ text-align: left!important;
+}
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -4222,17 +4224,30 @@ $carousel-transition:                transform $carousel-transition-duration eas
       .hero .parrafo-2 {
         position: absolute;
         top: 16%;
-        left: 83%;
-        width: 35%;
+        left: 88%;
+        width: 25%;
         transform: translate(-50%, -50%);
         color: white;
         font-size: 26px;
         text-align: center;
         border-radius: 0px 50px 50px 0px;
-        padding: 10px 10px;
-    }
+        padding: 10px 10px;}
 
 /* Media queries para diferentes tamaños de pantalla */
+
+
+@media (max-width: 1560.98px) {
+  .hero .parrafo-2 {
+    text-align: center;
+    font-size: 24px;
+    width: 30%;
+    left: 83%;
+    top: 15%;
+    transform: translate(-50%, -50%);
+    border-radius: 0px 50px 50px 0px;
+    padding: 10px 0px 0px 0px;
+  }
+}
 
 
 
@@ -4244,7 +4259,7 @@ $carousel-transition:                transform $carousel-transition-duration eas
     left: 81%;
     top: 15%;
     transform: translate(-50%, -50%);
-    background-color: rgba(0, 68, 255, 0.1);
+
     border-radius: 0px 50px 50px 0px;
     padding: 10px 0px 0px 0px;
   }
@@ -4259,7 +4274,7 @@ $carousel-transition:                transform $carousel-transition-duration eas
     left: 84%;
     top: 23%;
     transform: translate(-50%, -50%);
-    background-color: rgba(0, 68, 255, 0.1); 
+
     border-radius: 0px 50px 50px 0px;
     padding: 10px 0px 0px 0px; 
   }
@@ -4290,7 +4305,7 @@ $carousel-transition:                transform $carousel-transition-duration eas
     left: 78%;
     top: 36%;
     transform: translate(-50%, -50%);
-    background-color: rgba(0, 68, 255, 0.1);
+
     border-radius: 0px 50px 50px 0px;
     padding: 10px 0px 0px 0px;
   }
@@ -4306,7 +4321,7 @@ $carousel-transition:                transform $carousel-transition-duration eas
     left: 89%;
     top: 27%;
     transform: translate(-50%, -50%);
-    background-color: rgba(0, 68, 255, 0.1);
+
     border-radius: 0px 50px 50px 0px;
     padding: 10px 0px 0px 0px;
   }
@@ -4320,7 +4335,7 @@ $carousel-transition:                transform $carousel-transition-duration eas
     left: 78%;
     top: 23%;
     transform: translate(-50%, -50%);
-    background-color: rgba(176, 194, 245, 0.1);
+
     border-radius: 0px 50px 50px 0px;
     padding: 2px 0px 0px 0px;
   }
@@ -4332,23 +4347,23 @@ $carousel-transition:                transform $carousel-transition-duration eas
     font-size: 8px;
     width: 25%;
     left: 78%;
-    top: 28%;
+    top: 25.8%;
     transform: translate(-50%, -50%);
-    background-color: rgba(176, 194, 245, 0.1);
+
     border-radius: 0px 50px 50px 0px;
     padding: 2px 0px 0px 0px;
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 395px) {
   .hero .parrafo-2 {
     text-align: center;
     font-size: 6px;
     width: 25%;
     left: 78%;
-    top: 32%;
+    top: 30%;
     transform: translate(-50%, -50%);
-    background-color: rgba(176, 194, 245, 0.1);
+
     border-radius: 0px 50px 50px 0px;
     padding: 2px 0px 0px 0px;
   }
