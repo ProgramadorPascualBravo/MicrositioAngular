@@ -1945,6 +1945,15 @@ section {
 /*--------------------------------------------------------------
 # homecards
 --------------------------------------------------------------*/
+
+.homecards {
+  padding-bottom: 8rem;
+}
+
+.homecards .descrip {
+  padding-bottom: 2rem;
+}
+
 .homecards .member {
   width: 100%;
   height: 100%;
