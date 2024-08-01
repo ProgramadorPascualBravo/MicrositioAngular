@@ -4291,7 +4291,7 @@ $carousel-transition:                transform $carousel-transition-duration eas
 @media  (max-width: 1645.98px) {
   .hero .parrafo-1 {
     font-size: 25px;
-    width: 60%;
+    width: 58%;
     left: 25%;
     top: 21%;
     transform: translate(-50%, -50%);
@@ -4312,8 +4312,8 @@ $carousel-transition:                transform $carousel-transition-duration eas
   text-align: center;
   font-size: 40px;
   width: 56%;
-  left: 25%;
-  top: 44%;
+  left: 26%;
+  top: 43%;
   transform: translate(-50%, -50%);
   border-radius: 0px 50px 50px 0px;
   padding: 10px 0px 0px 0px;
@@ -4537,38 +4537,108 @@ $carousel-transition:                transform $carousel-transition-duration eas
   }
     }
 
+
+    @media  (max-width: 610.98px) {
+      .hero .parrafo-1 {
+        font-size: 15px;
+        width: 56%;
+        left: 28%;
+        top: 28%;
+        transform: translate(-50%, -50%);
+      }
+    
+      #hero h1 .titulo-bold2 {
+        font-weight: 700 !important;
+        font-size: 24px;
+        padding-left: 44px;
+      }
+    
+      #hero .parrafo-1 h1{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    
+      #hero .parrafo-2 {
+        text-align: center;
+        font-size: 15px;
+        width: 41%;
+        left: 30%;
+        top: 44%;
+        transform: translate(-50%, -50%);
+        border-radius: 0px 50px 50px 0px;
+        padding: 10px 0px 0px 0px;
+        line-height: 17px;
+    }
+          }
+    
+
+
     @media  (max-width: 575.98px) {
-       .hero .parrafo-1 {
+  .hero .parrafo-1 {
     font-size: 15px;
-    width: 60%;
-    left: 36%;
-    top: 42%;
+    width: 56%;
+    left: 31%;
+    top: 26%;
     transform: translate(-50%, -50%);
   }
 
   #hero h1 .titulo-bold2 {
     font-weight: 700 !important;
-    font-size: 30px;
-    padding-left: 40px;
+    font-size: 24px;
+    padding-left: 44px;
   }
 
   #hero .parrafo-1 h1{
-    font-size: 24px;
-    line-height: 34px;
+    font-size: 20px;
+    line-height: 24px;
 }
 
   #hero .parrafo-2 {
     text-align: center;
-    font-size: 19px;
-    width: 40%;
-    left: 32%;
-    top: 71%;
+    font-size: 15px;
+    width: 41%;
+    left: 31%;
+    top: 42%;
     transform: translate(-50%, -50%);
     border-radius: 0px 50px 50px 0px;
     padding: 10px 0px 0px 0px;
-    line-height: 22px;
+    line-height: 17px;
 }
       }
+
+
+      @media  (max-width: 545.98px) {
+        .hero .parrafo-1 {
+          font-size: 15px;
+          width: 56%;
+          left: 29%;
+          top: 27%;
+          transform: translate(-50%, -50%);
+        }
+      
+        #hero h1 .titulo-bold2 {
+          font-weight: 700 !important;
+          font-size: 22px;
+          padding-left: 50px;
+        }
+      
+        #hero .parrafo-1 h1{
+          font-size: 20px;
+          line-height: 24px;
+      }
+      
+        #hero .parrafo-2 {
+          text-align: center;
+          font-size: 14px;
+          width: 41%;
+          left: 31%;
+          top: 42%;
+          transform: translate(-50%, -50%);
+          border-radius: 0px 50px 50px 0px;
+          padding: 10px 0px 0px 0px;
+          line-height: 17px;
+      }
+            }      
 
       @media  (max-width: 480px) {
         .hero .parrafo-1 {
@@ -4605,6 +4675,40 @@ $carousel-transition:                transform $carousel-transition-duration eas
 
 
 @media  (max-width: 479px) {
+  .hero .parrafo-1 {
+    font-size: 15px;
+    width: 52%;
+    left: 30%;
+    top: 28%;
+    transform: translate(-50%, -50%);
+  }
+
+  #hero h1 .titulo-bold2 {
+    font-weight: 700 !important;
+    font-size: 19px;
+    padding-left: 32px;
+  }
+
+  #hero .parrafo-1 h1{
+    font-size: 16px;
+    line-height: 22px;
+}
+
+  #hero .parrafo-2 {
+    text-align: center;
+    font-size: 12px;
+    width: 40%;
+    left: 31%;
+    top: 44%;
+    transform: translate(-50%, -50%);
+    border-radius: 0px 50px 50px 0px;
+    padding: 10px 0px 0px 0px;
+    line-height: 14px;
+}
+}
+
+
+@media  (max-width: 439px) {
   .hero .parrafo-1 {
     font-size: 15px;
     width: 52%;
@@ -4671,7 +4775,7 @@ $carousel-transition:                transform $carousel-transition-duration eas
       }
 
      
-      @media  (max-width: 375px) {
+      @media  (max-width: 380px) {
         .hero .parrafo-1 {
           font-size: 15px;
           width: 53%;
@@ -4693,7 +4797,7 @@ $carousel-transition:                transform $carousel-transition-duration eas
       
         #hero .parrafo-2 {
           text-align: center;
-          font-size: 10px;
+          font-size: 9px;
           width: 38%;
           left: 32%;
           top: 46%;
