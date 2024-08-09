@@ -5661,7 +5661,86 @@ $carousel-transition:                transform $carousel-transition-duration eas
   }     
           }
 
-
+ @media  (max-width: 360px) {
+            .hero .parrafo-1 {
+              font-size: 15px;
+              width: 55%;
+              left: 34%;
+              top: 32%;
+              transform: translate(-50%, -50%);
+            }
+          
+            #hero h1 .titulo-bold2 {
+              font-weight: 700 !important;
+              font-size: 14px;
+              padding-left: 16px;
+            }
+          
+            #hero .parrafo-1 h1{
+              font-size: 12px;
+              line-height: 16px;
+          }
+          
+            #hero .parrafo-2 {
+              text-align: center;
+              font-size: 9px;
+              width: 38%;
+              left: 32%;
+              top: 46%;
+              transform: translate(-50%, -50%);
+              border-radius: 0px 50px 50px 0px;
+              padding: 10px 0px 0px 0px;
+              line-height: 13px;
+          }
+    
+      /* Banner 2 */
+    
+      #hero2 .parrafo-3 h1 {
+        position: absolute;
+        text-align: right;
+        top: 5%;
+        left: 46%;
+        width: 46%;
+        margin: 0;
+        font-size: 12px;
+        font-weight: 100;
+        line-height: 14px;
+        color: #014459;
+        font-family: "Roboto", sans-serif;
+      }
+      
+      #hero2 .parrafo-3 .titulo-bold3  {
+        font-weight: 700!important;
+      }
+      
+      #hero2 .parrafo-4 {
+        position: absolute;
+        text-align: center;
+        top: 13%;
+        left: 44%;
+        width: 65%;
+        margin: 0;
+        font-size: 5px;
+        font-weight: 600;
+        line-height: 30px;
+        color: #ffffff;
+        font-family: "Roboto", sans-serif;
+      }
+      
+      #hero2 .parrafo-5 {
+        position: absolute;
+        text-align: center;
+        top: 23%;
+        left: 33%;
+        width: 70%;
+        margin: 0;
+        font-size: 5px;
+        font-weight: 600;
+        line-height: 30px;
+        color: #ffffff;
+        font-family: "Roboto", sans-serif;
+      }     
+              }
      
 /* Media queries para diferentes tamaños de pantalla */
 
