@@ -63,7 +63,7 @@
             <i class="bx bx-chevron-down icon-show"></i>
             <i class="bx bx-chevron-up icon-close"></i>
           </a>
-          <div [hidden]="elementoAbierto === 1" id="faq-list-1" class="collapse" data-bs-parent=".faq-list">
+          <div [hidden]="elementoAbierto === 1" id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
             <ul>
               <li>
                 Ingresa a la página web institucional<a
@@ -89,6 +89,12 @@
             </ul>
           </div>
         </li>
+
+
+
+
+        
+
         <li
           [@fadeUp]="'void'"
           data-aos="fade-up"
@@ -117,6 +123,61 @@
             </p>
           </div>
         </li>
+
+
+        <li
+        [@fadeUp]="'void'"
+        data-aos="fade-up"
+        (click)="toggleCollapse(10)"
+        data-aos-delay="100"
+      >
+        <i class="bx bx-help-circle icon-help"></i>
+        <a
+          data-bs-toggle="collapse"
+          data-bs-target="#faq-list-10"
+          class="list collapsed"
+        >
+        ¿Cómo inicio sesión con la autenticación en dos pasos?
+          <i class="bx bx-chevron-down icon-show"></i>
+          <i class="bx bx-chevron-up icon-close"></i>
+        </a>
+        <div [hidden]="elementoAbierto === 10" id="faq-list-10" class="collapse" data-bs-parent=".faq-list">
+          <p><strong>Pasos para ingresar</strong></p>
+          <p>- Ingresa a <a href="http://campus.pascualbravovirtual.edu.co/" target="_blank" rel="noopener">campus.pascualbravovirtual.edu.co</a></p>
+          <p><b>- Digita tus datos de acceso:</b></p><br> 
+          <p><strong>Usuario</strong>: correo electrónico institucional</p>
+          
+          <p><strong>Contraseña</strong>: documento de identidad o la clave que hayas elegido para ingresar</p><br>
+          <p>El sistema de autenticación te enviará un código de seguridad a tu correo electrónico institucional, el cual debes digitar en la página de acceso al campus para finalizar con tu proceso de ingreso a la plataforma.</p>
+          <p>También puedes ver el video: <a href="https://www.youtube.com/watch?v=A5WF9v8rY1s" target="_blank" rel="noopener">https://www.youtube.com/watch?v=A5WF9v8rY1s</a></p>
+        </div>
+      </li>
+
+
+
+      <li
+        [@fadeUp]="'void'"
+        data-aos="fade-up"
+        (click)="toggleCollapse(11)"
+        data-aos-delay="100"
+      >
+        <i class="bx bx-help-circle icon-help"></i>
+        <a
+          data-bs-toggle="collapse"
+          data-bs-target="#faq-list-11"
+          class="list collapsed"
+        >
+        Mi código de seguridad para acceder al Campus ha vencido, ¿Qué hago?
+          <i class="bx bx-chevron-down icon-show"></i>
+          <i class="bx bx-chevron-up icon-close"></i>
+        </a>
+        <div [hidden]="elementoAbierto === 11" id="faq-list-11" class="collapse" data-bs-parent=".faq-list">
+          <p>El código de seguridad que recibes en tu correo electrónico a través de la autenticación en dos pasos tiene una duración de 30 minutos, si durante ese tiempo no puedes usarlo, debes generar otro a través del botón</p>
+        </div>
+      </li>
+
+
+
         <li
           [@fadeUp]="'void'"
           data-aos="fade-up"
